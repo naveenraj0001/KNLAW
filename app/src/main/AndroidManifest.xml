@@ -14,19 +14,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Knlaw">
         <activity
-            android:name=".SearchActivity"
+            android:name=".ui.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".FamilyActivity"
+            android:name=".ui.FamilyActivity"
             android:exported="false" />
         <activity
-            android:name=".CriminalActivity"
+            android:name=".ui.CriminalActivity"
             android:exported="false" />
         <activity
-            android:name=".RightsActivity"
+            android:name=".ui.RightsActivity"
             android:exported="false" />
         <activity
-            android:name=".AIActivity"
+            android:name=".ui.AIActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -39,9 +39,6 @@
         </activity> <!-- OTHER ACTIVITIES -->
         <activity
             android:name=".Main1Activity"
-            android:exported="false" />
-        <activity
-            android:name=".WebViewActivity"
             android:exported="false" />
     </application>
 
