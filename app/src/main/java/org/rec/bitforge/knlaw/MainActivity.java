@@ -6,11 +6,24 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.rec.bitforge.knlaw.ui.AIActivity;
+import org.rec.bitforge.knlaw.ui.CriminalActivity;
+import org.rec.bitforge.knlaw.ui.FamilyActivity;
+import org.rec.bitforge.knlaw.ui.RightsActivity;
+import org.rec.bitforge.knlaw.ui.SearchActivity;
+
+import androidx.room.Room;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        DB db = Room.databaseBuilder(
+                getApplicationContext(),
+                DB.class, "law-db"
+        ).allowMainThreadQueries().build();
 
         setContentView(R.layout.activity_main);
 
