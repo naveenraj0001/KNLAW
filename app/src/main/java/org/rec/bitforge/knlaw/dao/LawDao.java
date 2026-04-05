@@ -16,7 +16,8 @@ public interface LawDao {
 
     @Query("SELECT * FROM laws")
     List<Law> getAllLaws();
-
+    @Query("SELECT COUNT(*) FROM laws")
+    int getCount();
     @Query("SELECT * FROM laws WHERE actName LIKE '%' || :search || '%'")
     List<Law> searchByAct(String search);
 }

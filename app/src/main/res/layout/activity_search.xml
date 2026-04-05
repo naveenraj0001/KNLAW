@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/main"
-    android:gravity="center"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#0F172A"
+    android:padding="16dp">
 
-  <TextView
-      android:text="Search Laws Screen"
-      android:textSize="22sp"
-      android:textStyle="bold"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"/>
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
 
-</LinearLayout>
+    <!-- 🔍 Search Box -->
+    <EditText
+        android:id="@+id/inputSearch"
+        android:hint="Search laws (e.g. theft)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#94A3B8"
+        android:background="#1E293B"
+        android:padding="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- 🔥 Button -->
+    <Button
+        android:id="@+id/btnSearchNow"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3B82F6"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- 💀 Result Card -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"/>
+  </LinearLayout>
+</ScrollView>

@@ -1,5 +1,6 @@
 package org.rec.bitforge.knlaw.entities;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.Index;
@@ -25,8 +26,10 @@ public class Keyword {
     public int id;
 
     // 🔗 Foreign key to Law
+    @ColumnInfo(name = "lawId")
     public int lawId;
 
-    // 🔍 Search keyword (store in lowercase for consistency)
+    // 🔍 Search keyword
+    @ColumnInfo(name = "keyword")
     public String keyword;
 }

@@ -13,6 +13,8 @@ public class Law {
     public String section;        // e.g. 379
     public String title;          // Short title
     public String description;    // Detailed law
-    public String simpleExplanation; // Easy explanation
-
+    public String simpleExplanation;// Easy explanation
+    public String minPunishment;
+    public String maxPunishment;
+    public String policeAction;
 }
