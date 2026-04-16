@@ -4,29 +4,16 @@ import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
+import androidx.room.Insert;
 
-@Entity(
-        tableName = "related_laws",
-        foreignKeys = {
-                @ForeignKey(
-                        entity = Law.class,
-                        parentColumns = "id",
-                        childColumns = "lawId",
-                        onDelete = ForeignKey.CASCADE
-                ),
-                @ForeignKey(
-                        entity = Law.class,
-                        parentColumns = "id",
-                        childColumns = "relatedLawId",
-                        onDelete = ForeignKey.CASCADE
-                )
-        },
-        indices = {
-                @Index("lawId"),
-                @Index("relatedLawId"),
-                @Index(value = {"lawId", "relatedLawId"}, unique = true)
-        }
-)
+@Entity(tableName = "related_laws", foreignKeys = {
+        @ForeignKey(entity = Law.class, parentColumns = "id", childColumns = "lawId", onDelete = ForeignKey.CASCADE),
+        @ForeignKey(entity = Law.class, parentColumns = "id", childColumns = "relatedLawId", onDelete = ForeignKey.CASCADE)
+}, indices = {
+        @Index("lawId"),
+        @Index("relatedLawId"),
+        @Index(value = { "lawId", "relatedLawId" }, unique = true)
+})
 public class RelatedLaw {
 
     @PrimaryKey(autoGenerate = true)
@@ -45,4 +32,5 @@ public class RelatedLaw {
 
     // 📝 Optional explanation
     public String description;
+
 }

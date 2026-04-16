@@ -12,12 +12,17 @@ import java.util.List;
 public interface LawDao {
 
     @Insert
-    void insert(Law law);
+    long insert(Law law);
+
+    @Query("SELECT * FROM laws WHERE section = :section LIMIT 1")
+    Law getLawBySection(String section);
 
     @Query("SELECT * FROM laws")
     List<Law> getAllLaws();
+
     @Query("SELECT COUNT(*) FROM laws")
     int getCount();
+
     @Query("SELECT * FROM laws WHERE actName LIKE '%' || :search || '%'")
     List<Law> searchByAct(String search);
 }

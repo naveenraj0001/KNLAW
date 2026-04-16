@@ -4,17 +4,10 @@ import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
+import androidx.room.Insert;
 
-@Entity(
-        tableName = "punishments",
-        foreignKeys = @ForeignKey(
-                entity = Law.class,
-                parentColumns = "id",
-                childColumns = "lawId",
-                onDelete = ForeignKey.CASCADE
-        ),
-        indices = {@Index("lawId")}
-)
+@Entity(tableName = "punishments", foreignKeys = @ForeignKey(entity = Law.class, parentColumns = "id", childColumns = "lawId", onDelete = ForeignKey.CASCADE), indices = {
+        @Index("lawId") })
 public class Punishment {
 
     @PrimaryKey(autoGenerate = true)
@@ -28,8 +21,8 @@ public class Punishment {
     public Long maximumDuration; // nullable
 
     // 💰 Fine (in rupees)
-    public Double minimumFine;   // nullable
-    public Double maximumFine;   // nullable
+    public Double minimumFine; // nullable
+    public Double maximumFine; // nullable
 
     // 📌 Type of punishment
     // e.g. "IMPRISONMENT", "FINE", "BOTH"
@@ -37,5 +30,4 @@ public class Punishment {
 
     // 📝 Extra notes (e.g. "or both", "repeat offenders")
     public String description;
-
 }

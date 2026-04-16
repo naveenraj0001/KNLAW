@@ -6,8 +6,12 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.rec.bitforge.knlaw.entities.Keyword;
 import org.rec.bitforge.knlaw.entities.Law;
+import org.rec.bitforge.knlaw.entities.Punishment;
+import org.rec.bitforge.knlaw.entities.RelatedLaw;
 import org.rec.bitforge.knlaw.ui.AIActivity;
 import org.rec.bitforge.knlaw.ui.CriminalActivity;
 import org.rec.bitforge.knlaw.ui.FamilyActivity;
@@ -16,7 +20,161 @@ import org.rec.bitforge.knlaw.ui.SearchActivity;
 
 import androidx.room.Room;
 
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
+
+    private String loadJSONFromAsset() {
+        try {
+            InputStream is = getAssets().open("laws.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            return new String(buffer, "UTF-8");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return null;
+        }
+    }
+
+    private void insertFromJson(DB db) {
+        try {
+            String[] files = getAssets().list(""); // list all files in assets root
+
+            List<JSONArray> allLawArrays = new ArrayList<>();
+
+            for (String fileName : files) {
+
+                // ✅ Process only JSON files
+                if (!fileName.endsWith(".json"))
+                    continue;
+
+                InputStream is = getAssets().open(fileName);
+                int size = is.available();
+                byte[] buffer = new byte[size];
+                is.read(buffer);
+                is.close();
+
+                String json = new String(buffer, "UTF-8");
+
+                JSONObject root = new JSONObject(json);
+                JSONArray lawsArray = root.getJSONArray("laws");
+
+                allLawArrays.add(lawsArray); // store for second pass
+
+                // -------------------------
+                // FIRST PASS: Insert laws, keywords, punishments
+                // -------------------------
+                for (int i = 0; i < lawsArray.length(); i++) {
+
+                    JSONObject obj = lawsArray.getJSONObject(i);
+
+                    // ✅ LAW
+                    Law law = new Law();
+                    law.actName = obj.optString("actName");
+                    law.section = obj.optString("section");
+                    law.title = obj.optString("title");
+                    law.description = obj.optString("description");
+                    law.simpleExplanation = obj.optString("simpleExplanation");
+
+                    law.minPunishment = null;
+                    law.maxPunishment = null;
+                    law.policeAction = null;
+
+                    long lawIdLong = db.lawDao().insert(law);
+                    int lawId = (int) lawIdLong;
+
+                    // ✅ KEYWORDS
+                    JSONArray keywords = obj.optJSONArray("keywords");
+                    if (keywords != null) {
+                        for (int j = 0; j < keywords.length(); j++) {
+                            Keyword k = new Keyword();
+                            k.lawId = lawId;
+                            k.keyword = keywords.getString(j).toLowerCase().trim();
+
+                            db.keywordDao().insert(k);
+                        }
+                    }
+
+                    // ✅ PUNISHMENTS
+                    JSONArray punishments = obj.optJSONArray("punishments");
+                    if (punishments != null) {
+                        for (int j = 0; j < punishments.length(); j++) {
+
+                            JSONObject pObj = punishments.getJSONObject(j);
+
+                            Punishment p = new Punishment();
+                            p.lawId = lawId;
+
+                            p.minimumDuration = pObj.isNull("minimumDuration") ? null : pObj.getLong("minimumDuration");
+                            p.maximumDuration = pObj.isNull("maximumDuration") ? null : pObj.getLong("maximumDuration");
+
+                            p.minimumFine = pObj.isNull("minimumFine") ? null : pObj.getDouble("minimumFine");
+                            p.maximumFine = pObj.isNull("maximumFine") ? null : pObj.getDouble("maximumFine");
+
+                            p.punishmentType = pObj.optString("punishmentType");
+                            p.description = pObj.optString("description");
+
+                            db.punishmentDao().insert(p);
+                        }
+                    }
+                }
+            }
+
+            // -------------------------
+            // SECOND PASS: Related Laws (across ALL files)
+            // -------------------------
+            insertRelatedLaws(db, allLawArrays);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void insertRelatedLaws(DB db, List<JSONArray> allLawArrays) {
+        try {
+
+            for (JSONArray lawsArray : allLawArrays) {
+
+                for (int i = 0; i < lawsArray.length(); i++) {
+
+                    JSONObject obj = lawsArray.getJSONObject(i);
+
+                    String section = obj.optString("section");
+
+                    Law currentLaw = db.lawDao().getLawBySection(section);
+                    if (currentLaw == null)
+                        continue;
+
+                    JSONArray related = obj.optJSONArray("relatedSections");
+
+                    if (related != null) {
+                        for (int j = 0; j < related.length(); j++) {
+
+                            String relatedSection = related.getString(j);
+
+                            Law relatedLaw = db.lawDao().getLawBySection(relatedSection);
+
+                            if (relatedLaw != null) {
+                                RelatedLaw rl = new RelatedLaw();
+                                rl.lawId = currentLaw.id;
+                                rl.relatedLawId = relatedLaw.id;
+                                rl.relationType = "REFERENCE";
+
+                                db.relatedLawDao().insert(rl);
+                            }
+                        }
+                    }
+                }
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,63 +182,15 @@ public class MainActivity extends AppCompatActivity {
 
         DB db = Room.databaseBuilder(
                 getApplicationContext(),
-                DB.class, "law-db"
-        ).allowMainThreadQueries().build();
+                DB.class,
+                "law-db").allowMainThreadQueries().build();
 
-        // demo laws
+        // FOR DEBUG ONLY
+        db.clearAllTables();
+
         if (db.lawDao().getCount() == 0) {
-            Law law1 = new Law();
-            law1.actName = "IPC";
-            law1.section = "379";
-            law1.title = "Theft";
-            law1.description = "Whoever dishonestly takes movable property out of the possession of any person without that person's consent commits theft.";
-            law1.simpleExplanation = "Taking someone’s property without permission.";
-            law1.minPunishment = "Fine or jail";
-            law1.maxPunishment = "Up to 3 years imprisonment";
-            law1.policeAction = "Police can register FIR and start investigation";
-
-            db.lawDao().insert(law1);
-
-            Keyword k1 = new Keyword();
-            k1.lawId = 1;
-            k1.keyword = "theft";
-            db.keywordDao().insert(k1);
-
-            Law law2 = new Law();
-            law2.actName = "IPC";
-            law2.section = "302";
-            law2.title = "Murder";
-            law2.description = "Whoever commits murder shall be punished with death or imprisonment for life.";
-            law2.simpleExplanation = "Intentionally killing another person.";
-            law2.minPunishment = "Life imprisonment";
-            law2.maxPunishment = "Death penalty";
-            law2.policeAction = "Police will arrest immediately and start investigation";
-
-            db.lawDao().insert(law2);
-
-            Keyword k2 = new Keyword();
-            k2.lawId = 2;
-            k2.keyword = "murder";
-            db.keywordDao().insert(k2);
-
-            Law law3 = new Law();
-            law3.actName = "IPC";
-            law3.section = "420";
-            law3.title = "Cheating";
-            law3.description = "Whoever cheats and dishonestly induces a person to deliver property shall be punished.";
-            law3.simpleExplanation = "Tricking someone to gain money or benefit.";
-            law3.minPunishment = "Fine";
-            law3.maxPunishment = "Up to 7 years imprisonment";
-            law3.policeAction = "Police may file case and investigate fraud";
-
-            db.lawDao().insert(law3);
-
-            Keyword k3 = new Keyword();
-            k3.lawId = 3;
-            k3.keyword = "cheating";
-            db.keywordDao().insert(k3);
+            insertFromJson(db);
         }
-        // demo law over remove the import also when demo law removed
 
         setContentView(R.layout.activity_main);
 
@@ -90,24 +200,14 @@ public class MainActivity extends AppCompatActivity {
         Button btnSearch = findViewById(R.id.btnSearch);
         Button btnAI = findViewById(R.id.btnAI);
 
-        btnRights.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, RightsActivity.class));
-        });
+        btnRights.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, RightsActivity.class)));
 
-        btnCriminal.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, CriminalActivity.class));
-        });
+        btnCriminal.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, CriminalActivity.class)));
 
-        btnFamily.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, FamilyActivity.class));
-        });
+        btnFamily.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, FamilyActivity.class)));
 
-        btnSearch.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, SearchActivity.class));
-        });
+        btnSearch.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, SearchActivity.class)));
 
-        btnAI.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, AIActivity.class));
-        });
+        btnAI.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, AIActivity.class)));
     }
 }
