@@ -56,5 +56,17 @@
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnMic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎤 Speak"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/btnLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌐 Change Language"
+        android:layout_marginTop="8dp"/>
 
 </LinearLayout>
