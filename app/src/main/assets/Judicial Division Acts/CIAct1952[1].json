@@ -1,0 +1,83 @@
+{
+  "laws": [
+    {
+      "actName": "The Commissions of Inquiry Act, 1952",
+      "section": "10A",
+      "title": "Penalty for acts calculated to bring the Commission or any member thereof into disrepute",
+      "description": "If any person, by words either spoken or intended to be read, makes or publishes any statement or does any other act, which is calculated to bring the Commission or any member thereof into disrepute, he shall be punishable.",
+      "simpleExplanation": "If you say, write, or do anything intended to damage the reputation or public standing of the Commission or its members, you can be jailed or fined.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 180,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Simple imprisonment for a term which may extend to six months, or with fine, or with both."
+        }
+      ],
+      "keywords": [
+        "penalty",
+        "disrepute",
+        "defamation",
+        "commission",
+        "imprisonment"
+      ],
+      "relatedSections": [
+        {
+          "section": "21 of IPC",
+          "relationType": "REFERENCE",
+          "description": "Members of the Commission are deemed public servants under this section of the Indian Penal Code."
+        },
+        {
+          "section": "Code of Criminal Procedure, 1973",
+          "relationType": "REFERENCE",
+          "description": "Governs the procedure for the High Court to take cognizance and try these offences."
+        }
+      ]
+    },
+    {
+      "actName": "The Commissions of Inquiry Act, 1952",
+      "section": "5",
+      "title": "Additional powers of Commission",
+      "description": "Provides that any person required to furnish information to the Commission shall be deemed legally bound to do so within the meaning of section 176 and section 177 of the Indian Penal Code.",
+      "simpleExplanation": "If the Commission asks you for information, you are legally required to provide it. Failing to do so or giving false information is a punishable offence.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 180,
+          "minimumFine": null,
+          "maximumFine": 1000,
+          "punishmentType": "BOTH",
+          "description": "Under IPC Section 176 (Omission to furnish information): Simple imprisonment for up to 6 months, or fine up to Rs. 1,000, or both, as the information is required by a Court of Justice/Inquiry."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 730,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Under IPC Section 177 (Furnishing false information): If the information relates to the commission of an offence, punishment may extend to 2 years imprisonment, or fine, or both."
+        }
+      ],
+      "keywords": [
+        "information",
+        "legally bound",
+        "indian penal code",
+        "evidence"
+      ],
+      "relatedSections": [
+        {
+          "section": "176 of IPC",
+          "relationType": "REFERENCE",
+          "description": "Omission to give notice or information to public servant by person legally bound to give it."
+        },
+        {
+          "section": "177 of IPC",
+          "relationType": "REFERENCE",
+          "description": "Furnishing false information."
+        }
+      ]
+    }
+  ]
+}

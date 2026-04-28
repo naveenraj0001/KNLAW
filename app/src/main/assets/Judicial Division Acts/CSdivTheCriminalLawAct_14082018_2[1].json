@@ -1,0 +1,154 @@
+{
+  "laws": [
+    {
+      "actName": "The Criminal Law (Amendment) Act, 2018",
+      "section": "376(1)",
+      "title": "Punishment for Rape",
+      "description": "Amends the punishment for rape in the Indian Penal Code.",
+      "simpleExplanation": "The minimum jail time for rape has been increased from seven years to ten years.",
+      "punishments": [
+        {
+          "minimumDuration": 3650,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Rigorous imprisonment for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine."
+        }
+      ],
+      "keywords": [
+        "rape",
+        "punishment",
+        "imprisonment",
+        "indian penal code"
+      ],
+      "relatedSections": [
+        {
+          "section": "376(2)",
+          "relationType": "AMENDMENT",
+          "description": "Omission of clause (i) regarding specific categories of rape."
+        }
+      ]
+    },
+    {
+      "actName": "The Criminal Law (Amendment) Act, 2018",
+      "section": "376(3)",
+      "title": "Punishment for rape on woman under sixteen years of age",
+      "description": "Inserts a specific punishment for rape committed against a girl under the age of 16.",
+      "simpleExplanation": "Raping a girl under 16 now carries a minimum of 20 years in jail, which can extend to life imprisonment for the rest of the person's natural life.",
+      "punishments": [
+        {
+          "minimumDuration": 7300,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life (remainder of natural life), and fine paid to victim."
+        }
+      ],
+      "keywords": [
+        "minor",
+        "sixteen years",
+        "rigorous imprisonment",
+        "natural life"
+      ],
+      "relatedSections": [
+        {
+          "section": "376",
+          "relationType": "REFERENCE",
+          "description": "Sub-section added to the main section regarding rape."
+        }
+      ]
+    },
+    {
+      "actName": "The Criminal Law (Amendment) Act, 2018",
+      "section": "376AB",
+      "title": "Punishment for rape on woman under twelve years of age",
+      "description": "New section providing punishment for rape of a girl under 12 years, including the death penalty.",
+      "simpleExplanation": "Raping a child under 12 is now punishable by at least 20 years in jail, life imprisonment, or death.",
+      "punishments": [
+        {
+          "minimumDuration": 7300,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Rigorous imprisonment for not less than twenty years, life imprisonment for remainder of natural life, or death, and fine."
+        }
+      ],
+      "keywords": [
+        "child rape",
+        "twelve years",
+        "death penalty",
+        "rigorous imprisonment"
+      ],
+      "relatedSections": [
+        {
+          "section": "376A",
+          "relationType": "REFERENCE",
+          "description": "Inserted after section 376A."
+        }
+      ]
+    },
+    {
+      "actName": "The Criminal Law (Amendment) Act, 2018",
+      "section": "376DA",
+      "title": "Punishment for gang rape on woman under sixteen years of age",
+      "description": "New section for gang rape involving a victim under 16 years of age.",
+      "simpleExplanation": "If a group of people rapes a girl under 16, every person involved will be jailed for the rest of their natural life.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment for life, which shall mean imprisonment for the remainder of that person's natural life, and with fine."
+        }
+      ],
+      "keywords": [
+        "gang rape",
+        "sixteen years",
+        "common intention",
+        "life imprisonment"
+      ],
+      "relatedSections": [
+        {
+          "section": "376D",
+          "relationType": "REFERENCE",
+          "description": "Inserted after section 376D."
+        }
+      ]
+    },
+    {
+      "actName": "The Criminal Law (Amendment) Act, 2018",
+      "section": "376DB",
+      "title": "Punishment for gang rape on woman under twelve years of age",
+      "description": "New section for gang rape involving a victim under 12 years of age.",
+      "simpleExplanation": "If a group of people rapes a child under 12, the punishment is life imprisonment for the rest of their lives or the death penalty.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment for life for the remainder of natural life, or death, and fine."
+        }
+      ],
+      "keywords": [
+        "gang rape",
+        "twelve years",
+        "death penalty",
+        "child victim"
+      ],
+      "relatedSections": [
+        {
+          "section": "376DA",
+          "relationType": "SIMILAR",
+          "description": "Related provision for older minors."
+        }
+      ]
+    }
+  ]
+}

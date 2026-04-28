@@ -4,6 +4,9 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Relation;
+
+import java.util.List;
 
 @Entity(tableName = "laws")
 public class Law {
@@ -16,8 +19,4 @@ public class Law {
     public String title; // Short title
     public String description; // Detailed law
     public String simpleExplanation;// Easy explanation
-    public String minPunishment;
-    public String maxPunishment;
-    public String policeAction;
-
 }

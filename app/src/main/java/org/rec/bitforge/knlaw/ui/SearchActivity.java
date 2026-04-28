@@ -3,22 +3,28 @@ package org.rec.bitforge.knlaw.ui;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import org.rec.bitforge.knlaw.DB;
 import org.rec.bitforge.knlaw.R;
-import org.rec.bitforge.knlaw.entities.Keyword;
+import org.rec.bitforge.knlaw.adapters.LawAdapter;
 import org.rec.bitforge.knlaw.entities.Law;
+import org.rec.bitforge.knlaw.entities.Punishment;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import org.rec.bitforge.knlaw.LawAdapter;
+import java.util.Map;
 
 public class SearchActivity extends AppCompatActivity {
+
+    DB db;
+    RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,27 +35,49 @@ public class SearchActivity extends AppCompatActivity {
 
         EditText input = findViewById(R.id.inputSearch);
         Button btn = findViewById(R.id.btnSearchNow);
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        recyclerView = findViewById(R.id.recyclerView);
 
-        DB db = Room.databaseBuilder(
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        db = Room.databaseBuilder(
                 getApplicationContext(),
-                DB.class, "law-db"
+                DB.class,
+                "law-db"
         ).allowMainThreadQueries().build();
+
         btn.setOnClickListener(v -> {
 
-            String text = input.getText().toString().toLowerCase();
+            String text = input.getText().toString().trim().toLowerCase();
 
-            List<Law> list = db.keywordDao().searchAll(text);
-
-            if (list.isEmpty()) {
-                // optional: you can show a toast or keep empty list
-                recyclerView.setAdapter(null);
-            } else {
-                LawAdapter adapter = new LawAdapter(list);
-                recyclerView.setLayoutManager(new LinearLayoutManager(SearchActivity.this));
-                recyclerView.setAdapter(adapter);
+            if (text.isEmpty()) {
+                Toast.makeText(this, "Enter something to search", Toast.LENGTH_SHORT).show();
+                return;
             }
+
+            List<Law> laws = db.keywordDao().searchAll(text);
+
+            if (laws == null || laws.isEmpty()) {
+                recyclerView.setAdapter(null);
+                Toast.makeText(this, "No laws found", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // 🔥 FIX: Map of LIST instead of single object
+            Map<Integer, List<Punishment>> punishmentMap = new HashMap<>();
+
+            for (Law law : laws) {
+
+                // 🔥 You MUST have this DAO method:
+                // List<Punishment> getPunishmentsByLawId(int lawId);
+                List<Punishment> list = db.punishmentDao().getAllPunishmentByLawId(law.id);
+
+                if (list != null && !list.isEmpty()) {
+                    punishmentMap.put(law.id, list);
+                }
+            }
+
+            LawAdapter adapter = new LawAdapter(laws, punishmentMap);
+            recyclerView.setAdapter(adapter);
         });
     }
 }
-

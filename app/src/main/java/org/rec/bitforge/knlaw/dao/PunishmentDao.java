@@ -12,4 +12,10 @@ import java.util.List;
 public interface PunishmentDao {
     @Insert
     void insert(Punishment punishment);
+
+    @Query("SELECT * FROM punishments WHERE lawId = :lawId LIMIT 1")
+    Punishment getPunishmentByLawId(int lawId);
+
+    @Query("SELECT * FROM punishments WHERE lawId = :lawId")
+    List<Punishment> getAllPunishmentByLawId(int lawId);
 }

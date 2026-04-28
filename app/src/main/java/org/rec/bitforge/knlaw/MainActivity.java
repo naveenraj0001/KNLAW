@@ -2,6 +2,7 @@ package org.rec.bitforge.knlaw;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,33 +21,49 @@ import org.rec.bitforge.knlaw.ui.SearchActivity;
 
 import androidx.room.Room;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String loadJSONFromAsset() {
-        try {
-            InputStream is = getAssets().open("laws.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            return new String(buffer, "UTF-8");
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            return null;
+    private void getAllJsonFiles(String path, List<String> jsonFiles) throws IOException {
+        String[] list = getAssets().list(path);
+
+        if (list == null || list.length == 0) {
+            // It's a file (or empty), check if JSON
+            if (path.endsWith(".json")) {
+                jsonFiles.add(path);
+            }
+            return;
+        }
+
+        for (String item : list) {
+            String fullPath = path.isEmpty() ? item : path + "/" + item;
+
+            String[] subList = getAssets().list(fullPath);
+
+            if (subList != null && subList.length > 0) {
+                // It's a directory → recurse
+                getAllJsonFiles(fullPath, jsonFiles);
+            } else {
+                // It's a file → check extension
+                if (fullPath.endsWith(".json")) {
+                    jsonFiles.add(fullPath);
+                }
+            }
         }
     }
 
     private void insertFromJson(DB db) {
         try {
-            String[] files = getAssets().list(""); // list all files in assets root
+            List<String> jsonFiles = new ArrayList<>();
+            getAllJsonFiles("", jsonFiles);
 
             List<JSONArray> allLawArrays = new ArrayList<>();
 
-            for (String fileName : files) {
+            for (String fileName : jsonFiles) {
 
                 // ✅ Process only JSON files
                 if (!fileName.endsWith(".json"))
@@ -79,10 +96,6 @@ public class MainActivity extends AppCompatActivity {
                     law.title = obj.optString("title");
                     law.description = obj.optString("description");
                     law.simpleExplanation = obj.optString("simpleExplanation");
-
-                    law.minPunishment = null;
-                    law.maxPunishment = null;
-                    law.policeAction = null;
 
                     long lawIdLong = db.lawDao().insert(law);
                     int lawId = (int) lawIdLong;
@@ -183,13 +196,14 @@ public class MainActivity extends AppCompatActivity {
         DB db = Room.databaseBuilder(
                 getApplicationContext(),
                 DB.class,
-                "law-db").allowMainThreadQueries().build();
+                "law-db").fallbackToDestructiveMigration(true).allowMainThreadQueries().build();
 
         // FOR DEBUG ONLY
         db.clearAllTables();
 
         if (db.lawDao().getCount() == 0) {
             insertFromJson(db);
+            Log.d("DATABASE", "Inserted");
         }
 
         setContentView(R.layout.activity_main);

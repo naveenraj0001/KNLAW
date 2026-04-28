@@ -3,6 +3,7 @@ package org.rec.bitforge.knlaw.dao;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Transaction;
 
 import org.rec.bitforge.knlaw.entities.Law;
 
