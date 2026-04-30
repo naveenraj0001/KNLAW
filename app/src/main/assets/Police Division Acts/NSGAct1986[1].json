@@ -1,0 +1,166 @@
+{
+  "laws": [
+    {
+      "actName": "National Security Guard Act, 1986",
+      "section": "15",
+      "title": "Offences in relation to terrorists and punishable with death",
+      "description": "Covers cowardice, aiding terrorists, communicating with enemies, or acts endangering operations.",
+      "simpleExplanation": "Helping terrorists, acting cowardly, or risking mission success can lead to death penalty.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Death or lesser punishment."
+        }
+      ],
+      "keywords": ["terrorist", "cowardice", "enemy", "assistance"],
+      "relatedSections": []
+    },
+    {
+      "actName": "National Security Guard Act, 1986",
+      "section": "16",
+      "title": "Offence punishable more severely on active duty",
+      "description": "Includes offences like sleeping on duty, leaving post, or using force against a sentry.",
+      "simpleExplanation": "Misconduct on duty like sleeping or leaving post leads to harsher punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 14 years on active duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 7 years when not on active duty."
+        }
+      ],
+      "keywords": ["active duty", "sleeping on duty", "leaving post"],
+      "relatedSections": []
+    },
+    {
+      "actName": "National Security Guard Act, 1986",
+      "section": "17",
+      "title": "Mutiny",
+      "description": "Covers inciting, participating, or failing to report mutiny.",
+      "simpleExplanation": "Rebellion or failing to stop/report it is punishable severely.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Death or lesser punishment."
+        }
+      ],
+      "keywords": ["mutiny", "rebellion", "conspiracy"],
+      "relatedSections": []
+    },
+    {
+      "actName": "National Security Guard Act, 1986",
+      "section": "18",
+      "title": "Desertion and aiding desertion",
+      "description": "Covers desertion, harboring deserters, and failure to report desertion.",
+      "simpleExplanation": "Leaving duty or helping deserters leads to serious punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Death on active duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 7 years otherwise."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1095,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 3 years for harboring deserter."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 730,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 2 years for failure to report."
+        }
+      ],
+      "keywords": ["desertion", "harboring", "absence"],
+      "relatedSections": []
+    },
+    {
+      "actName": "National Security Guard Act, 1986",
+      "section": "19",
+      "title": "Absence without leave",
+      "description": "Covers unauthorized absence and failure to report duty.",
+      "simpleExplanation": "Missing duty without permission leads to punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1095,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 3 years imprisonment."
+        }
+      ],
+      "keywords": ["absence", "leave", "duty"],
+      "relatedSections": []
+    },
+    {
+      "actName": "National Security Guard Act, 1986",
+      "section": "20",
+      "title": "Striking or threatening superior officer",
+      "description": "Covers assault or threatening language toward superior officers.",
+      "simpleExplanation": "Attacking or threatening a superior officer is a serious offence.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 14 years on active duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 3650,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 10 years otherwise."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1825,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 5 years for insubordinate language."
+        }
+      ],
+      "keywords": ["assault", "superior officer", "threat"],
+      "relatedSections": []
+    }
+  ]
+}

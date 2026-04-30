@@ -1,0 +1,161 @@
+{
+  "laws": [
+    {
+      "actName": "Indo-Tibetan Border Police Force Act, 1992",
+      "section": "16",
+      "title": "Offences in relation to the enemy or terrorist and punishable with death",
+      "description": "Covers grave offences such as abandoning post, aiding the enemy, cowardice, or communicating with the enemy.",
+      "simpleExplanation": "If a member helps the enemy, abandons duty, or acts cowardly during operations, the punishment can be death.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Punishable with death or lesser punishment as specified."
+        }
+      ],
+      "keywords": ["enemy", "terrorist", "cowardice", "abandoning post"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Force Act, 1992",
+      "section": "17",
+      "title": "Offences in relation to the enemy and not punishable with death",
+      "description": "Covers offences like being captured due to negligence or unauthorized communication with the enemy.",
+      "simpleExplanation": "If someone is careless or communicates with the enemy without permission, they face serious punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Imprisonment up to fourteen years or lesser punishment."
+        }
+      ],
+      "keywords": ["enemy", "communication", "negligence"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Force Act, 1992",
+      "section": "18",
+      "title": "Offences punishable more severely on active duty",
+      "description": "Includes offences such as leaving post, sleeping on duty, or causing false alarms.",
+      "simpleExplanation": "Mistakes during active duty like leaving post or sleeping lead to stricter punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to fourteen years imprisonment on active duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to seven years imprisonment when not on active duty."
+        }
+      ],
+      "keywords": ["active duty", "sleeping on duty", "false alarm"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Force Act, 1992",
+      "section": "19",
+      "title": "Mutiny",
+      "description": "Covers mutiny, conspiracy to mutiny, or failure to suppress mutiny.",
+      "simpleExplanation": "Rebellion or helping rebellion in the force is a very serious crime.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Punishable with death or lesser punishment."
+        }
+      ],
+      "keywords": ["mutiny", "rebellion", "conspiracy"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Force Act, 1992",
+      "section": "20",
+      "title": "Desertion and aiding desertion",
+      "description": "Covers desertion or attempt to desert and aiding deserters.",
+      "simpleExplanation": "Leaving duty or helping someone escape duty is punishable.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Punishable with death when on active duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to seven years imprisonment otherwise."
+        }
+      ],
+      "keywords": ["desertion", "absence", "duty"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Force Act, 1992",
+      "section": "21",
+      "title": "Absence without leave",
+      "description": "Covers unauthorized absence, overstaying leave, or failure to report for duty.",
+      "simpleExplanation": "Being absent without permission or not returning on time leads to punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1095,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Imprisonment up to three years."
+        }
+      ],
+      "keywords": ["absence", "leave", "duty"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Force Act, 1992",
+      "section": "22",
+      "title": "Striking or threatening superior officer",
+      "description": "Covers assault, threat, or insubordinate language toward superior officers.",
+      "simpleExplanation": "Attacking or threatening a superior officer is a serious offence.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to fourteen years imprisonment on active duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1825,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to five years imprisonment otherwise."
+        }
+      ],
+      "keywords": ["assault", "superior officer", "threat"],
+      "relatedSections": []
+    }
+  ]
+}

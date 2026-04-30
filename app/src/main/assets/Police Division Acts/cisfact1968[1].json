@@ -1,0 +1,42 @@
+{
+  "laws": [
+    {
+      "actName": "Central Industrial Security Force Act, 1968",
+      "section": "17",
+      "title": "Surrender of certificate, arms etc. by persons ceasing to be members of the Force",
+      "description": "Requires members leaving the force to surrender certificates, arms, and other issued items; failure to do so is punishable.",
+      "simpleExplanation": "If a CISF member leaves service and does not return official items like weapons or certificates, they can be punished.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 30,
+          "minimumFine": null,
+          "maximumFine": 200,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment up to one month or fine up to 200 rupees or both."
+        }
+      ],
+      "keywords": ["surrender", "certificate", "arms", "force property"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Central Industrial Security Force Act, 1968",
+      "section": "18",
+      "title": "Penalties for neglect of duty etc.",
+      "description": "Punishes members for violation of duty, neglect, unauthorized absence, or misconduct.",
+      "simpleExplanation": "If a CISF member neglects duty, disobeys orders, or behaves improperly, they can face punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 365,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Imprisonment up to one year."
+        }
+      ],
+      "keywords": ["neglect of duty", "misconduct", "absence", "violation"],
+      "relatedSections": []
+    }
+  ]
+}

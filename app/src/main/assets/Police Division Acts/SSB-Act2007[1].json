@@ -1,0 +1,212 @@
+{
+  "laws": [
+    {
+      "actName": "Sashastra Seema Bal Act, 2007",
+      "section": "16",
+      "title": "Offences in relation to enemy and punishable with death",
+      "description": "Includes cowardice, assisting enemy or terrorists, spreading false alarms, abandoning post, or acts endangering mission success.",
+      "simpleExplanation": "If a person helps the enemy, behaves cowardly, or risks mission success during operations, they can face the death penalty.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Death or lesser punishment."
+        }
+      ],
+      "keywords": ["enemy", "terrorist", "cowardice", "assistance", "security"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Act, 2007",
+      "section": "17",
+      "title": "Offences in relation to enemy not punishable with death",
+      "description": "Covers being captured due to negligence, failing to rejoin service, or unauthorized communication with enemy.",
+      "simpleExplanation": "Negligence leading to capture or secret communication with the enemy can lead to imprisonment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Imprisonment up to 14 years."
+        }
+      ],
+      "keywords": ["enemy", "capture", "negligence", "communication"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Act, 2007",
+      "section": "18",
+      "title": "Offences punishable more severely on active duty",
+      "description": "Includes misconduct like leaving post, sleeping on duty, spreading panic, or mishandling security protocols.",
+      "simpleExplanation": "Breaking discipline rules during active duty leads to harsher punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 14 years imprisonment on active duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 7 years imprisonment otherwise."
+        }
+      ],
+      "keywords": ["active duty", "discipline", "security", "misconduct"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Act, 2007",
+      "section": "19",
+      "title": "Mutiny",
+      "description": "Includes inciting, participating in, or failing to report mutiny.",
+      "simpleExplanation": "Rebellion against authority or not stopping/reporting it is severely punishable.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Death or lesser punishment."
+        }
+      ],
+      "keywords": ["mutiny", "rebellion", "conspiracy"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Act, 2007",
+      "section": "20",
+      "title": "Desertion and aiding desertion",
+      "description": "Covers desertion, harboring deserters, and failure to report desertion.",
+      "simpleExplanation": "Leaving duty or helping deserters is a serious offence.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Death if on active duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 7 years imprisonment otherwise."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 7 years for harboring deserter."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 730,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 2 years for failure to report."
+        }
+      ],
+      "keywords": ["desertion", "absence", "harboring"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Act, 2007",
+      "section": "21",
+      "title": "Absence without leave",
+      "description": "Covers unauthorized absence, overstaying leave, or failure to report for duty.",
+      "simpleExplanation": "Missing duty without permission can lead to punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1095,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 3 years imprisonment."
+        }
+      ],
+      "keywords": ["absence", "leave", "duty"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Act, 2007",
+      "section": "22",
+      "title": "Striking or threatening superior officer",
+      "description": "Includes assault, threats, or disrespectful language toward superior officers.",
+      "simpleExplanation": "Attacking or threatening a superior officer leads to severe punishment.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 14 years on active duty or when officer is on duty."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 3650,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 10 years otherwise."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1825,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 5 years for insubordinate language."
+        }
+      ],
+      "keywords": ["assault", "superior officer", "threat", "insubordination"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Act, 2007",
+      "section": "23",
+      "title": "Disobedience to superior officer",
+      "description": "Covers willful disobedience of lawful commands.",
+      "simpleExplanation": "Ignoring or defying orders from a superior officer is punishable.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 14 years imprisonment."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1825,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Up to 5 years when not on active duty."
+        }
+      ],
+      "keywords": ["disobedience", "orders", "authority"],
+      "relatedSections": []
+    }
+  ]
+}

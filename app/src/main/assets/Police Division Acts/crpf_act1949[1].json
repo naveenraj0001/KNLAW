@@ -1,0 +1,42 @@
+{
+  "laws": [
+    {
+      "actName": "Central Reserve Police Force Act, 1949",
+      "section": "9",
+      "title": "More heinous offences",
+      "description": "Covers serious offences such as mutiny, assault on superior officers, desertion, cowardice, and misconduct during active duty.",
+      "simpleExplanation": "Serious crimes like rebellion, attacking seniors, deserting duty, or cowardice in CRPF are heavily punished.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 5110,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment up to fourteen years or fine up to three months pay, or both."
+        }
+      ],
+      "keywords": ["mutiny", "assault", "desertion", "cowardice", "active duty"],
+      "relatedSections": []
+    },
+    {
+      "actName": "Central Reserve Police Force Act, 1949",
+      "section": "10",
+      "title": "Less heinous offences",
+      "description": "Covers offences like intoxication on duty, insubordination, negligence, absence without leave, and misconduct.",
+      "simpleExplanation": "Less serious but still important violations like being drunk on duty or disobeying orders are punishable.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 365,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment up to one year or fine up to three months pay, or both."
+        }
+      ],
+      "keywords": ["intoxication", "insubordination", "absence", "misconduct"],
+      "relatedSections": []
+    }
+  ]
+}
