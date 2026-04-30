@@ -1,0 +1,184 @@
+{
+  "laws": [
+    {
+      "actName": "Indian Penal Code",
+      "section": "153AA",
+      "title": "Punishment for knowingly carrying arms in any procession or organising, or holding or taking part in any mass drill or mass training with arms",
+      "description": "Punishes anyone who knowingly carries arms in any procession or organises, holds, or takes part in any mass drill or mass training with arms in any public place in contravention of a public notice or order issued under section 144A of the CrPC.",
+      "simpleExplanation": "It is illegal to carry weapons in a public parade or participate in group weapon training if a District Magistrate has officially banned it to keep the peace.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 180,
+          "minimumFine": null,
+          "maximumFine": 2000,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment for a term which may extend to six months and with fine which may extend to two thousand rupees."
+        }
+      ],
+      "keywords": [
+        "arms",
+        "procession",
+        "mass drill",
+        "public place",
+        "section 144a"
+      ],
+      "relatedSections": [
+        {
+          "section": "144A of CrPC",
+          "relationType": "REFERENCE",
+          "description": "Empowers the District Magistrate to prohibit arms in processions or mass drills."
+        }
+      ]
+    },
+    {
+      "actName": "Indian Penal Code",
+      "section": "174A",
+      "title": "Non-appearance in response to a proclamation under section 82 of Act 2 of 1974",
+      "description": "Punishes anyone who fails to appear at the specified place and time required by a proclamation published under sub-section (1) of section 82 of the CrPC. Provides enhanced punishment for those declared proclaimed offenders under sub-section (4).",
+      "simpleExplanation": "If you are hiding from a court warrant and ignore the public notice (proclamation) to appear, you can be jailed. The punishment is much more severe if the court officially labels you a 'proclaimed offender'.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1095,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment for a term which may extend to three years, or with fine, or with both."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Where a declaration has been made pronouncing a person as a proclaimed offender, punishment may extend to seven years and shall also be liable to fine."
+        }
+      ],
+      "keywords": [
+        "non-appearance",
+        "proclamation",
+        "proclaimed offender",
+        "absconding",
+        "section 82"
+      ],
+      "relatedSections": [
+        {
+          "section": "82 of CrPC",
+          "relationType": "REFERENCE",
+          "description": "Relates to the proclamation for a person absconding."
+        }
+      ]
+    },
+    {
+      "actName": "Indian Penal Code",
+      "section": "229A",
+      "title": "Failure by person released on bail or bond to appear in Court",
+      "description": "Punishes anyone charged with an offence and released on bail or bond who fails without sufficient cause to appear in Court in accordance with the terms of the bail or bond.",
+      "simpleExplanation": "If you are let out of jail on bail but skip your court date without a very good reason, you have committed a new crime.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 365,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment of either description for a term which may extend to one year, or with fine, or with both."
+        }
+      ],
+      "keywords": [
+        "bail",
+        "bond",
+        "failure to appear",
+        "court appearance",
+        "absconding"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Code of Criminal Procedure, 1973",
+      "section": "46(4)",
+      "title": "Arrest of woman",
+      "description": "Prohibits the arrest of a woman after sunset and before sunrise except in exceptional circumstances and with prior judicial permission.",
+      "simpleExplanation": "Police generally cannot arrest a woman at night. If it is absolutely necessary, a woman police officer must get written permission from a Magistrate first.",
+      "punishments": [],
+      "keywords": [
+        "woman",
+        "arrest",
+        "sunset",
+        "sunrise",
+        "magistrate permission"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Code of Criminal Procedure, 1973",
+      "section": "50A",
+      "title": "Obligation of person making arrest to inform about the arrest, etc., to a nominated person",
+      "description": "Mandates that any person making an arrest must immediately inform a friend, relative, or nominated person about the arrest and the place of detention.",
+      "simpleExplanation": "If the police arrest you, they must tell someone you trust about it and record that they did so in the station records.",
+      "punishments": [],
+      "keywords": [
+        "arrest",
+        "information",
+        "nominated person",
+        "police station",
+        "rights"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Code of Criminal Procedure, 1973",
+      "section": "436A",
+      "title": "Maximum period for which an undertrial prisoner can be detained",
+      "description": "Allows for the release of an undertrial prisoner on a personal bond if they have been detained for up to one-half of the maximum imprisonment period specified for their alleged offence.",
+      "simpleExplanation": "If you are in jail waiting for your trial and have already spent half as much time there as the maximum sentence for your crime, you are usually entitled to be released on bail.",
+      "punishments": [],
+      "keywords": [
+        "undertrial",
+        "detention",
+        "bail",
+        "personal bond",
+        "maximum period"
+      ],
+      "relatedSections": [
+        {
+          "section": "436",
+          "relationType": "REFERENCE",
+          "description": "General provisions as to bail."
+        }
+      ]
+    },
+    {
+      "actName": "Code of Criminal Procedure, 1973",
+      "section": "144A",
+      "title": "Power to prohibit carrying arms in procession or mass drill or mass training with arms",
+      "description": "Empowers the District Magistrate to prohibit the carrying of arms in processions or mass drills in public places for up to three months to maintain public peace.",
+      "simpleExplanation": "The District Magistrate can ban weapons in public parades or group training sessions for up to three months to keep the public safe.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 180,
+          "minimumFine": null,
+          "maximumFine": 2000,
+          "punishmentType": "BOTH",
+          "description": "Violation of an order under this section is punishable under section 153AA of the Indian Penal Code."
+        }
+      ],
+      "keywords": [
+        "arms",
+        "district magistrate",
+        "public peace",
+        "prohibition",
+        "procession"
+      ],
+      "relatedSections": [
+        {
+          "section": "153AA of IPC",
+          "relationType": "REFERENCE",
+          "description": "Provides the specific punishment for violating an order under this section."
+        }
+      ]
+    }
+  ]
+}

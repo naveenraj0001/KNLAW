@@ -1,0 +1,115 @@
+{
+  "laws": [
+    {
+      "actName": "The Registration of Births and Deaths Act, 1969",
+      "section": "8",
+      "title": "Persons required to register births and deaths",
+      "description": "Specifies the individuals responsible for reporting births and deaths to the Registrar within a prescribed time. This includes the head of the house for residential events, medical officers for institutional events (hospitals/nursing homes), jailors for prisons, and local police officers for deserted bodies found in public[cite: 7].",
+      "simpleExplanation": "This law names the specific people who are legally required to tell the government when a birth or death happens. Usually, it's the head of the family, but if it happens in a hospital or jail, the person in charge there must report it[cite: 7].",
+      "punishments": [],
+      "keywords": [
+        "registration",
+        "head of household",
+        "hospital",
+        "birth reporting",
+        "death reporting"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 23",
+          "relationType": "PENALTY",
+          "description": "Prescribes the penalty for failing to provide information as required under Section 8[cite: 7]."
+        }
+      ]
+    },
+    {
+      "actName": "The Registration of Births and Deaths Act, 1969",
+      "section": "10",
+      "title": "Duty of certain persons to notify births and deaths and to certify cause of death",
+      "description": "Mandates that midwives, medical attendants, and keepers of places for the disposal of dead bodies notify the Registrar of events they attend. It also requires medical practitioners who attended a person during their last illness to issue a certificate of cause of death free of charge[cite: 7].",
+      "simpleExplanation": "Doctors, midwives, and even cemetery keepers must notify the government about births or deaths they witness. Also, if a doctor was treating someone before they died, they must provide a certificate stating the cause of death without charging a fee[cite: 7].",
+      "punishments": [],
+      "keywords": [
+        "medical certificate",
+        "cause of death",
+        "midwife",
+        "notification"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 23(3)",
+          "relationType": "PENALTY",
+          "description": "Details the fine for medical practitioners who refuse to issue a death certificate[cite: 7]."
+        }
+      ]
+    },
+    {
+      "actName": "The Registration of Births and Deaths Act, 1969",
+      "section": "13",
+      "title": "Delayed registration of births and deaths",
+      "description": "Outlines the procedure for registering a birth or death after the initial deadline has passed. Registration within 30 days requires a late fee; between 30 days and one year requires written permission and an affidavit; after one year, registration is only permitted via an order from a first-class Magistrate[cite: 7].",
+      "simpleExplanation": "If you forget to register a birth or death on time, you can still do it later. However, the longer you wait, the harder it gets—you'll have to pay late fees, provide a sworn statement (affidavit), or even get a court order if it's been more than a year[cite: 7].",
+      "punishments": [],
+      "keywords": [
+        "delayed registration",
+        "late fee",
+        "affidavit",
+        "magistrate order"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Registration of Births and Deaths Act, 1969",
+      "section": "15",
+      "title": "Correction or cancellation of entry in the register of births and deaths",
+      "description": "Empowers the Registrar to correct errors in form or substance, or cancel entries that were fraudulently or improperly made, provided they are satisfied with the proof presented. Changes are made via a marginal note without altering the original entry[cite: 7].",
+      "simpleExplanation": "If there is a mistake on a birth or death certificate, or if someone lied to get one, the Registrar has the power to fix it. They don't erase the old info but add a note on the side explaining the correction[cite: 7].",
+      "punishments": [],
+      "keywords": [
+        "correction",
+        "erroneous entry",
+        "fraudulent entry",
+        "cancellation"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Registration of Births and Deaths Act, 1969",
+      "section": "23",
+      "title": "Penalties",
+      "description": "Establishes fines for various violations, including: failing to report a birth or death (Section 8/9); providing false information; refusing to sign the register (Section 11); and registrars neglecting their duties. It also penalizes medical practitioners for refusing to provide a cause-of-death certificate[cite: 7].",
+      "simpleExplanation": "This section sets the fines for breaking the rules of this Act. If you don't report a birth, lie on the forms, or if a doctor refuses to give a death certificate, you can be fined up to 50 rupees[cite: 7].",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": 50,
+          "punishmentType": "FINE",
+          "description": "Fine which may extend to fifty rupees for failure to report, giving false info, or refusal to sign the register[cite: 7]."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": 10,
+          "punishmentType": "FINE",
+          "description": "Fine which may extend to ten rupees for general contraventions where no specific penalty is provided[cite: 7]."
+        }
+      ],
+      "keywords": [
+        "fine",
+        "false information",
+        "neglect of duty",
+        "punishment"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 24",
+          "relationType": "PROCEDURE",
+          "description": "Allows for the compounding (settling) of these offences for a sum not exceeding fifty rupees[cite: 7]."
+        }
+      ]
+    }
+  ]
+}

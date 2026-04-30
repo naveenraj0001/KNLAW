@@ -1,0 +1,116 @@
+{
+  "laws": [
+    {
+      "actName": "The Census Act, 1948",
+      "section": "4A",
+      "title": "Staff of every local authority to be made available for taking census",
+      "description": "Requires every local authority in a State, when directed by a written order, to make available to the Director of Census Operations the staff necessary for census duties[cite: 103, 109].",
+      "simpleExplanation": "Local government offices (like municipalities) are legally required to provide their employees to help conduct the census if the Central Government asks for them[cite: 109].",
+      "punishments": [],
+      "keywords": [
+        "local authority",
+        "staff",
+        "census operations",
+        "duty"
+      ],
+      "relatedSections": [
+        {
+          "section": "11(1)(ca)",
+          "relationType": "REFERENCE",
+          "description": "Provides the penalty for a local authority failing to comply with Section 4A[cite: 168]."
+        }
+      ]
+    },
+    {
+      "actName": "The Census Act, 1948",
+      "section": "7A",
+      "title": "Requisitioning premises, of vehicles, etc. for taking of a census",
+      "description": "Empowers the Central Government to requisition premises, vehicles, vessels, or animals if they are needed for census purposes[cite: 107, 111, 114].",
+      "simpleExplanation": "The government can temporarily take over buildings or vehicles to use them for census work, though they must pay compensation for this use[cite: 114, 127].",
+      "punishments": [],
+      "keywords": [
+        "requisition",
+        "premises",
+        "vehicle",
+        "vessel",
+        "animal"
+      ],
+      "relatedSections": [
+        {
+          "section": "7B",
+          "relationType": "REFERENCE",
+          "description": "Details the payment of compensation for requisitioned property[cite: 125, 127]."
+        },
+        {
+          "section": "7H",
+          "relationType": "PENALTY",
+          "description": "Provides the punishment for contravening a requisition order[cite: 157]."
+        }
+      ]
+    },
+    {
+      "actName": "The Census Act, 1948",
+      "section": "7H",
+      "title": "Penalty for contravention of any order regarding requisitioning",
+      "description": "Punishes any person who contravenes a requisition order under section 7A or an order to provide information under section 7C[cite: 154, 157].",
+      "simpleExplanation": "If you refuse to allow the government to use your property for the census after being ordered, or if you refuse to give them information about that property, you can be jailed or fined[cite: 157].",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 365,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment for a term which may extend to one year or with fine or with both[cite: 157]."
+        }
+      ],
+      "keywords": [
+        "penalty",
+        "requisition",
+        "contravention",
+        "imprisonment"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Census Act, 1948",
+      "section": "11",
+      "title": "Penalties",
+      "description": "Details various offences including: census officers refusing to perform duties or neglecting diligence; persons hindering census work; local authorities failing to provide staff; and individuals providing false answers or refusing to answer census questions[cite: 162, 165, 166, 168].",
+      "simpleExplanation": "This section ensures everyone cooperates. Census workers must do their jobs carefully, local governments must help, and citizens must provide truthful information. Breaking these rules can lead to significant jail time[cite: 165, 169].",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1095,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "For serious offences (like officers refusing duty or persons hindering census work), imprisonment can extend up to three years[cite: 169]."
+        }
+      ],
+      "keywords": [
+        "census officer",
+        "neglect",
+        "hindrance",
+        "false answers",
+        "three years"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Census Act, 1948",
+      "section": "15A",
+      "title": "Protection of service interests of members of census staff",
+      "description": "Provides that members of the census staff shall not suffer any disability in their regular service or lose rights to promotion because of their census duty[cite: 185].",
+      "simpleExplanation": "If you are a government worker sent to do census work, your regular job and career progress are protected. Your time on census duty is treated as regular work for your main employer[cite: 185, 186].",
+      "punishments": [],
+      "keywords": [
+        "protection",
+        "service",
+        "promotion",
+        "census staff"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

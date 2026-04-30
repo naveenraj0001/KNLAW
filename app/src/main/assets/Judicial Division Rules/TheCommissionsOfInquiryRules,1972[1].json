@@ -1,0 +1,70 @@
+{
+  "laws": [
+    {
+      "actName": "The Commissions of Inquiry (Central) Rules, 1972",
+      "section": "Rule 4",
+      "title": "Issue and service of summons",
+      "description": "Details the process by which a Commission may summon individuals to give evidence or produce documents. It specifies that summons must be in duplicate, signed by the Chairman or authorized person, sealed, and served via post or as directed by the Commission[cite: 13, 19, 20, 23].",
+      "simpleExplanation": "The Commission has the power to officially order you to appear before it to answer questions or bring specific papers. These orders must be signed, stamped, and are usually sent by mail.",
+      "punishments": [],
+      "keywords": [
+        "summons",
+        "evidence",
+        "documents",
+        "service",
+        "chairman"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 3 of the Commissions of Inquiry Act, 1952",
+          "relationType": "REFERENCE",
+          "description": "The rules apply to Commissions appointed under this section[cite: 5]."
+        }
+      ]
+    },
+    {
+      "actName": "The Commissions of Inquiry (Central) Rules, 1972",
+      "section": "Rule 5",
+      "title": "Procedure of Inquiry",
+      "description": "Establishes the procedural framework for the Commission, including the power to sit in public or private, the requirement for witness statements to be supported by affidavits, the order of recording evidence, and the power to conduct local investigations with the authority of a civil court[cite: 26, 34, 36, 49].",
+      "simpleExplanation": "This rule sets the 'ground rules' for how the investigation happens. It covers whether the public can attend, how witnesses provide written statements (which must be sworn under oath), and the order in which people testify.",
+      "punishments": [],
+      "keywords": [
+        "procedure",
+        "affidavit",
+        "civil court",
+        "local investigation",
+        "evidence"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 5 of the Commissions of Inquiry Act, 1952",
+          "relationType": "REFERENCE",
+          "description": "Relates to the additional powers of the Commission regarding evidence and information."
+        }
+      ]
+    },
+    {
+      "actName": "The Commissions of Inquiry (Central) Rules, 1972",
+      "section": "Rule 6",
+      "title": "Appointment of assessors",
+      "description": "Allows the Commission to appoint one or more experts, known as assessors, to provide assistance and advice on matters connected to the inquiry[cite: 51].",
+      "simpleExplanation": "The Commission can hire experts to help explain complicated technical or specialized information, though the Commission does not have to follow the expert's advice[cite: 53].",
+      "punishments": [],
+      "keywords": [
+        "assessors",
+        "experts",
+        "advice",
+        "consultation",
+        "non-binding"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 5B of the Commissions of Inquiry Act, 1952",
+          "relationType": "REFERENCE",
+          "description": "The section under which assessors are formally appointed[cite: 8]."
+        }
+      ]
+    }
+  ]
+}

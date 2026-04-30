@@ -1,0 +1,116 @@
+{
+  "laws": [
+    {
+      "actName": "Citizenship (Registration of Citizens and Issue of National Identity Cards) Rules, 2003",
+      "section": "Rule 3",
+      "title": "National Register of Indian Citizens",
+      "description": "Mandates the Registrar General of Citizen Registration to establish and maintain the National Register of Indian Citizens (NRIC). This register contains the details of every citizen, including names, father's name, gender, date of birth, and a National Identity Number.",
+      "simpleExplanation": "The government is required to keep a master list of all Indian citizens. This list includes basic personal information and a unique identity number for everyone.",
+      "punishments": [],
+      "keywords": [
+        "NRIC",
+        "citizenship register",
+        "national identity number",
+        "citizen records"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 14A of the Citizenship Act, 1955",
+          "relationType": "REFERENCE",
+          "description": "The parent section of the Act that empowers the government to register citizens and issue identity cards."
+        }
+      ]
+    },
+    {
+      "actName": "Citizenship (Registration of Citizens and Issue of National Identity Cards) Rules, 2003",
+      "section": "Rule 4",
+      "title": "Preparation of the National Register of Indian Citizens",
+      "description": "Outlines the process for creating the NRIC, which involves house-to-house enumeration, collection of specific details, and the preparation of a Local Register of Indian Citizens. It also provides a process for verification and filing objections.",
+      "simpleExplanation": "To build the citizenship list, officials visit homes to collect data. Once a draft list is made, it is published locally so people can check it and file complaints or corrections if someone is missing or wrongly included.",
+      "punishments": [],
+      "keywords": [
+        "enumeration",
+        "verification",
+        "objections",
+        "local register",
+        "data collection"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Citizenship (Registration of Citizens and Issue of National Identity Cards) Rules, 2003",
+      "section": "Rule 13",
+      "title": "Issue of National Identity Cards",
+      "description": "Authorizes the Registrar General of Citizen Registration or an authorized officer to issue National Identity Cards to every citizen whose name is entered in the National Register of Indian Citizens.",
+      "simpleExplanation": "Once you are officially on the National Register of Citizens, the government will issue you a National Identity Card.",
+      "punishments": [],
+      "keywords": [
+        "identity card",
+        "issuance",
+        "citizen identification",
+        "official card"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Citizenship (Registration of Citizens and Issue of National Identity Cards) Rules, 2003",
+      "section": "Rule 14",
+      "title": "Responsibility to produce National Identity Card",
+      "description": "Requires every person to whom a National Identity Card has been issued to produce it for inspection when required by the Registrar General or any authorized officer.",
+      "simpleExplanation": "If an authorized official asks to see your National Identity Card, you are legally required to show it to them.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": 1000,
+          "punishmentType": "FINE",
+          "description": "Violation of this rule is punishable with a fine which may extend to one thousand rupees under Rule 17."
+        }
+      ],
+      "keywords": [
+        "inspection",
+        "produce card",
+        "authorized officer",
+        "compliance"
+      ],
+      "relatedSections": [
+        {
+          "section": "Rule 17",
+          "relationType": "PENALTY",
+          "description": "The general penalty rule that covers violations of Rule 14."
+        }
+      ]
+    },
+    {
+      "actName": "Citizenship (Registration of Citizens and Issue of National Identity Cards) Rules, 2003",
+      "section": "Rule 17",
+      "title": "Penalties",
+      "description": "Provides the punishment for the contravention of specific rules within this set, including Rules 5, 7, 8, 10, 11, and 14.",
+      "simpleExplanation": "If you break the rules regarding registration, providing family details, correcting info, or showing your identity card, you can be fined.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": 1000,
+          "punishmentType": "FINE",
+          "description": "Punishable with a fine which may extend to one thousand rupees."
+        }
+      ],
+      "keywords": [
+        "penalty",
+        "fine",
+        "contravention",
+        "punishment"
+      ],
+      "relatedSections": [
+        {
+          "section": "Rule 5, 7, 8, 10, 11, 14",
+          "relationType": "REFERENCE",
+          "description": "The specific rules that, if violated, trigger this penalty."
+        }
+      ]
+    }
+  ]
+}

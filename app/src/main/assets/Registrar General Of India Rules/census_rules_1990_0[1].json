@@ -1,0 +1,77 @@
+{
+  "laws": [
+    {
+      "actName": "Census Rules, 1990",
+      "section": "Rule 5",
+      "title": "Functions of Census Officers",
+      "description": "Defines the duties of various census officers. Principal Census Officers, District Census Officers, and others are responsible for the census taking in their areas. They must appoint staff, train them, ensure the delivery of census schedules, and supervise the collection and verification of data.",
+      "simpleExplanation": "This rule lists the jobs of different census officials. They have to manage the people working under them, make sure everyone gets the right forms, and ensure the census is done correctly and on time in their assigned area.",
+      "punishments": [],
+      "keywords": [
+        "census officer",
+        "duties",
+        "supervision",
+        "training",
+        "data collection"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 4 of Census Act, 1948",
+          "relationType": "REFERENCE",
+          "description": "Relates to the appointment of census officers mentioned in this rule."
+        }
+      ]
+    },
+    {
+      "actName": "Census Rules, 1990",
+      "section": "Rule 7",
+      "title": "Manner of taking census",
+      "description": "Prescribes how the census is conducted, including the use of specific census schedules and questionnaires. It mandates that data be collected through canvassing (visiting households) and ensures the use of official forms for recording information.",
+      "simpleExplanation": "This rule explains exactly how the census happens: workers must visit homes and use official government forms to ask questions and record the answers.",
+      "punishments": [],
+      "keywords": [
+        "canvassing",
+        "questionnaire",
+        "household",
+        "census schedule"
+      ],
+      "relatedSections": [
+        {
+          "section": "Section 8 of Census Act, 1948",
+          "relationType": "REFERENCE",
+          "description": "Refers to the questions that can be asked in the census schedule."
+        }
+      ]
+    },
+    {
+      "actName": "Census Rules, 1990",
+      "section": "Rule 9",
+      "title": "Custody of census schedules and connected papers",
+      "description": "Requires that after the census is finished, all filled-in forms (schedules) must be kept securely in the office of the Director of Census Operations or a designated place for data processing.",
+      "simpleExplanation": "Once the census is over, all the private information collected must be locked away safely in a specific government office so it can be studied and counted.",
+      "punishments": [],
+      "keywords": [
+        "custody",
+        "security",
+        "schedules",
+        "data processing"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Census Rules, 1990",
+      "section": "Rule 11",
+      "title": "Disposal of census schedules and other connected papers",
+      "description": "Specifies that the collected census forms and related documents must be disposed of (destroyed) one year before the next census begins, following the directions of the Census Commissioner.",
+      "simpleExplanation": "Old census forms aren't kept forever. They are destroyed one year before the next census starts to clear space and maintain privacy.",
+      "punishments": [],
+      "keywords": [
+        "disposal",
+        "destruction",
+        "census commissioner",
+        "records"
+      ],
+      "relatedSections": []
+    }
+  ]
+}
