@@ -1,0 +1,50 @@
+{
+"laws": [
+{
+"actName": "State Emblem of India (Prohibition of Improper Use) Act, 2005",
+"section": "Section 3",
+"title": "Prohibition of improper use of emblem",
+"description": "No person shall use the State Emblem of India or any imitation in a manner that creates an impression of association with the Government or as an official document without prior permission from the Central Government.",
+"simpleExplanation": "Using the State Emblem in a way that makes people think it is official government work without permission is illegal.",
+"punishments": [
+{
+"minimumDuration": null,
+"maximumDuration": 730,
+"minimumFine": null,
+"maximumFine": 5000,
+"punishmentType": "BOTH",
+"description": "Imprisonment up to two years, or fine up to 5000, or both."
+},
+{
+"minimumDuration": 180,
+"maximumDuration": 730,
+"minimumFine": null,
+"maximumFine": 5000,
+"punishmentType": "BOTH",
+"description": "For repeat offences, imprisonment not less than six months up to two years and fine up to 5000."
+}
+],
+"keywords": ["state emblem", "improper use", "government", "permission", "imitation"],
+"relatedSections": []
+},
+{
+"actName": "State Emblem of India (Prohibition of Improper Use) Act, 2005",
+"section": "Section 4",
+"title": "Prohibition of use of emblem for wrongful gain",
+"description": "No person shall use the State Emblem of India for trade, business, profession, trademark, design, or patent except as prescribed.",
+"simpleExplanation": "Using the State Emblem for business, trademarks, or profit without permission is illegal.",
+"punishments": [
+{
+"minimumDuration": 180,
+"maximumDuration": 730,
+"minimumFine": null,
+"maximumFine": 5000,
+"punishmentType": "BOTH",
+"description": "Imprisonment not less than six months up to two years and fine up to 5000 for wrongful gain."
+}
+],
+"keywords": ["state emblem", "business use", "trademark", "wrongful gain", "prohibition"],
+"relatedSections": []
+}
+]
+}

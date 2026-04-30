@@ -1,0 +1,86 @@
+{
+  "laws": [
+    {
+      "actName": "The Bihar Reorganisation Act, 2000",
+      "section": "3",
+      "title": "Formation of Jharkhand State",
+      "description": "On and from the appointed day, there shall be formed a new State to be known as the State of Jharkhand comprising the following territories of the existing State of Bihar, namely:— Bokaro, Chatra, Deogarh, Dhanbad, Dumka, Garhwa, Giridih, Godda, Gumla, Hazaribagh, Kodarma, Lohardaga, Pakur, Palamau, Ranchi, Sahebganj, Singhbhum (East) and Singhbhum (West) districts.",
+      "simpleExplanation": "This section creates the new state of Jharkhand by taking eighteen specific districts away from the original state of Bihar[cite: 394, 395].",
+      "punishments": [],
+      "keywords": [
+        "jharkhand",
+        "formation",
+        "districts",
+        "reorganisation",
+        "territory"
+      ],
+      "relatedSections": [
+        {
+          "section": "4",
+          "relationType": "REFERENCE",
+          "description": "Defines the remaining territories of the State of Bihar[cite: 397]."
+        },
+        {
+          "section": "5",
+          "relationType": "AMENDMENT",
+          "description": "Amends the First Schedule of the Constitution to include Jharkhand as the 28th State[cite: 402, 403]."
+        }
+      ]
+    },
+    {
+      "actName": "The Bihar Reorganisation Act, 2000",
+      "section": "12",
+      "title": "Provisions as to Legislative Assemblies",
+      "description": "The number of seats as on the appointed day in the Legislative Assemblies of the States of Bihar and Jharkhand shall be two hundred and forty-three and eighty-one respectively.",
+      "simpleExplanation": "This law sets the size of the new law-making bodies: Bihar's assembly will have 243 members, and Jharkhand's will have 81[cite: 432].",
+      "punishments": [],
+      "keywords": [
+        "legislative assembly",
+        "seats",
+        "representation"
+      ],
+      "relatedSections": [
+        {
+          "section": "13",
+          "relationType": "REFERENCE",
+          "description": "Details how sitting members are allocated between the two new assemblies[cite: 461]."
+        }
+      ]
+    },
+    {
+      "actName": "The Bihar Reorganisation Act, 2000",
+      "section": "25",
+      "title": "High Court of Jharkhand",
+      "description": "On and from the appointed day, there shall be a separate High Court for the State of Jharkhand... and the High Court at Patna shall become the High Court for the State of Bihar.",
+      "simpleExplanation": "A new High Court is established specifically for Jharkhand, while the existing Patna High Court will now only serve the state of Bihar[cite: 526].",
+      "punishments": [],
+      "keywords": [
+        "high court",
+        "jharkhand",
+        "patna",
+        "judiciary"
+      ],
+      "relatedSections": [
+        {
+          "section": "27",
+          "relationType": "REFERENCE",
+          "description": "Grants the Jharkhand High Court the same jurisdiction and powers previously held by the Patna High Court over those territories[cite: 531]."
+        }
+      ]
+    },
+    {
+      "actName": "The Bihar Reorganisation Act, 2000",
+      "section": "28",
+      "title": "Special provision relating to Bar Council and Advocates",
+      "description": "Any person who immediately before the appointed day is an advocate on the roll of the Bar Council of the existing State of Bihar may give his option in writing, within one year from the appointed day... to transfer his name on the roll of the Bar Council of Jharkhand.",
+      "simpleExplanation": "Lawyers currently registered in Bihar have one year to decide if they want to officially move their practice registration to the new Jharkhand Bar Council[cite: 288].",
+      "punishments": [],
+      "keywords": [
+        "advocates",
+        "bar council",
+        "legal practice"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

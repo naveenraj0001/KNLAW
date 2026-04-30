@@ -1,0 +1,94 @@
+{
+  "laws": [
+    {
+      "actName": "The Andhra Pradesh Reorganisation Act, 2014",
+      "section": "2",
+      "title": "Definitions",
+      "description": "In this Act, unless the context otherwise requires,— (a) \"appointed day\" means the day which the Central Government may, by notification in the Official Gazette, appoint; (b) \"article\" means an article of the Constitution; (f) \"successor State\", in relation to the existing State of Andhra Pradesh, means the State of Andhra Pradesh or the State of Telangana, as the case may be.",
+      "simpleExplanation": "This section defines key terms used throughout the Act, such as 'appointed day' (the official date the split happens) and 'successor State' (referring to the new Andhra Pradesh or Telangana)[cite: 84].",
+      "punishments": [],
+      "keywords": [
+        "definitions",
+        "appointed day",
+        "successor state",
+        "constitution"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Andhra Pradesh Reorganisation Act, 2014",
+      "section": "3",
+      "title": "Formation of Telangana State",
+      "description": "On and from the appointed day, there shall be formed a new State to be known as the State of Telangana comprising the following territories of the existing State of Andhra Pradesh, namely:— Adilabad, Karimnagar, Medak, Nizamabad, Warangal, Rangareddi, Nalgonda, Mahbubnagar, Khammam (as specified) and Hyderabad districts.",
+      "simpleExplanation": "This law officially creates the state of Telangana by carving out specific districts (like Adilabad, Warangal, and Hyderabad) from the original state of Andhra Pradesh[cite: 84].",
+      "punishments": [],
+      "keywords": [
+        "telangana",
+        "formation",
+        "districts",
+        "reorganisation"
+      ],
+      "relatedSections": [
+        {
+          "section": "4",
+          "relationType": "REFERENCE",
+          "description": "Defines the remaining territories that stay as the State of Andhra Pradesh[cite: 84]."
+        }
+      ]
+    },
+    {
+      "actName": "The Andhra Pradesh Reorganisation Act, 2014",
+      "section": "5",
+      "title": "Hyderabad to be common capital for specified period",
+      "description": "On and from the appointed day, Hyderabad in the existing State of Andhra Pradesh shall be the common capital of the State of Telangana and the State of Andhra Pradesh for such period not exceeding ten years.",
+      "simpleExplanation": "For a period of up to ten years, Hyderabad will serve as the shared capital city for both Telangana and Andhra Pradesh while Andhra Pradesh develops its own new capital[cite: 84].",
+      "punishments": [],
+      "keywords": [
+        "hyderabad",
+        "common capital",
+        "ten years"
+      ],
+      "relatedSections": [
+        {
+          "section": "6",
+          "relationType": "REFERENCE",
+          "description": "Mandates the Central Government to constitute an expert committee to study alternatives for a new capital for Andhra Pradesh[cite: 84]."
+        }
+      ]
+    },
+    {
+      "actName": "The Andhra Pradesh Reorganisation Act, 2014",
+      "section": "7",
+      "title": "Governor of Andhra Pradesh and Telangana",
+      "description": "On and from the appointed day, the Governor of the existing State of Andhra Pradesh shall be the Governor for both the State of Andhra Pradesh and the State of Telangana for such period as may be determined by the President.",
+      "simpleExplanation": "The current Governor of Andhra Pradesh will take on the dual role of being the Governor for both new states for a duration decided by the President of India[cite: 84].",
+      "punishments": [],
+      "keywords": [
+        "governor",
+        "president",
+        "administration"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Andhra Pradesh Reorganisation Act, 2014",
+      "section": "30",
+      "title": "High Court of Judicature at Hyderabad to be common High Court",
+      "description": "On and from the appointed day,— (a) the High Court of Judicature at Hyderabad shall be the common High Court for the State of Telangana and the State of Andhra Pradesh till a separate High Court for the State of Andhra Pradesh is constituted.",
+      "simpleExplanation": "The existing High Court in Hyderabad will serve as the judicial headquarters for both states until a separate High Court is established specifically for Andhra Pradesh[cite: 84].",
+      "punishments": [],
+      "keywords": [
+        "high court",
+        "judiciary",
+        "common court"
+      ],
+      "relatedSections": [
+        {
+          "section": "31",
+          "relationType": "REFERENCE",
+          "description": "Provides for the establishment of a separate High Court for Andhra Pradesh[cite: 84]."
+        }
+      ]
+    }
+  ]
+}

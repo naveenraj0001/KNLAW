@@ -1,0 +1,72 @@
+{
+"laws": [
+{
+"actName": "Prevention of Insults to National Honour Act, 1971",
+"section": "Section 2",
+"title": "Insult to Indian National Flag and Constitution of India",
+"description": "Whoever in any public place or within public view burns, mutilates, defaces, defiles, disfigures, destroys, tramples upon or otherwise shows disrespect to or brings into contempt the Indian National Flag or the Constitution of India by words or acts shall be punished.",
+"simpleExplanation": "If someone disrespects or insults the Indian National Flag or Constitution in public, they can be punished.",
+"punishments": [
+{
+"minimumDuration": null,
+"maximumDuration": 1095,
+"minimumFine": null,
+"maximumFine": null,
+"punishmentType": "BOTH",
+"description": "Imprisonment up to three years, or fine, or both."
+}
+],
+"keywords": ["national flag", "constitution", "insult", "disrespect", "public place"],
+"relatedSections": []
+},
+{
+"actName": "Prevention of Insults to National Honour Act, 1971",
+"section": "Section 3",
+"title": "Prevention of singing of National Anthem",
+"description": "Whoever intentionally prevents the singing of the Indian National Anthem or causes disturbance to an assembly engaged in such singing shall be punished.",
+"simpleExplanation": "If someone stops or disturbs people singing the National Anthem, they can be punished.",
+"punishments": [
+{
+"minimumDuration": null,
+"maximumDuration": 1095,
+"minimumFine": null,
+"maximumFine": null,
+"punishmentType": "BOTH",
+"description": "Imprisonment up to three years, or fine, or both."
+}
+],
+"keywords": ["national anthem", "prevent singing", "disturbance", "assembly"],
+"relatedSections": []
+},
+{
+"actName": "Prevention of Insults to National Honour Act, 1971",
+"section": "Section 3A",
+"title": "Minimum penalty on second or subsequent offence",
+"description": "Whoever, having already been convicted of an offence under section 2 or section 3, is again convicted of such offence shall be punishable with imprisonment for a term not less than one year.",
+"simpleExplanation": "If a person repeats the offence after being convicted once, they must be punished with at least one year of imprisonment.",
+"punishments": [
+{
+"minimumDuration": 365,
+"maximumDuration": null,
+"minimumFine": null,
+"maximumFine": null,
+"punishmentType": "IMPRISONMENT",
+"description": "Imprisonment not less than one year for repeat offences."
+}
+],
+"keywords": ["repeat offence", "minimum punishment", "recidivism"],
+"relatedSections": [
+{
+"section": "Section 2",
+"relationType": "REFERENCE",
+"description": "Applies to offences under section 2."
+},
+{
+"section": "Section 3",
+"relationType": "REFERENCE",
+"description": "Applies to offences under section 3."
+}
+]
+}
+]
+}

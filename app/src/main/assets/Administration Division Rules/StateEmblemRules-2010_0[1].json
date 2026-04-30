@@ -1,0 +1,65 @@
+{
+  "laws": [
+    {
+      "actName": "State Emblem of India (Regulation of Use) Rules, 2007",
+      "section": "7",
+      "title": "Restriction on the use of emblem on business cards, letter heads, etc.",
+      "description": "No person (including former functionaries of the Government of India or the State Governments) shall use the emblem on their business cards or letter heads. [cite: 31, 32]",
+      "simpleExplanation": "You are not allowed to print the State Emblem on your personal or business visiting cards or letterheads, even if you previously held a government position. [cite: 31, 32]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 730,
+          "minimumFine": null,
+          "maximumFine": 5000,
+          "punishmentType": "BOTH",
+          "description": "As per Section 7 of the parent Act (2005), contravention of use restrictions carries imprisonment up to two years or fine up to five thousand rupees, or both. [cite: 106]"
+        }
+      ],
+      "keywords": [
+        "business cards",
+        "letter heads",
+        "restriction",
+        "prohibition",
+        "former functionary"
+      ],
+      "relatedSections": [
+        {
+          "section": "Rule 10",
+          "relationType": "REFERENCE",
+          "description": "Restricts the use of the emblem on souvenirs, trophies, and other items. [cite: 35]"
+        }
+      ]
+    },
+    {
+      "actName": "State Emblem of India (Regulation of Use) Rules, 2007",
+      "section": "10",
+      "title": "Restriction on the use of emblem on souvenirs, trophies, etc.",
+      "description": "No person shall use the emblem on any souvenir, trophy, memento, or badge etc. [cite: 35]",
+      "simpleExplanation": "The National Emblem cannot be placed on awards, trophies, or badges, except for those specifically issued by the Government or for specific official sporting events as permitted. [cite: 35, 36]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 730,
+          "minimumFine": null,
+          "maximumFine": 5000,
+          "punishmentType": "BOTH",
+          "description": "Punishable under the parent Act for improper use. [cite: 106]"
+        }
+      ],
+      "keywords": [
+        "souvenir",
+        "trophy",
+        "memento",
+        "badge"
+      ],
+      "relatedSections": [
+        {
+          "section": "Rule 10(2)",
+          "relationType": "EXCEPTION",
+          "description": "Permits the emblem on trophies/mementos given by the Government or for State-recognized bodies for sporting events. [cite: 36]"
+        }
+      ]
+    }
+  ]
+}

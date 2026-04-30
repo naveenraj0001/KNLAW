@@ -1,0 +1,75 @@
+{
+  "laws": [
+    {
+      "actName": "The Governors (Emoluments, Allowances and Privileges) Act, 1982",
+      "section": "3",
+      "title": "Emoluments",
+      "description": "There shall be paid to every Governor emoluments at the rate of Rs. 3,50,000 per mensem. Provided that if a Governor, at the time of his appointment, is in receipt of a pension in respect of any previous service, his emoluments shall be reduced by the amount of that pension.",
+      "simpleExplanation": "Every Governor is paid a monthly salary of 3,50,000 rupees. If they already receive a government pension from a previous job, that pension amount is deducted from this salary.",
+      "punishments": [],
+      "keywords": [
+        "salary",
+        "emoluments",
+        "pension",
+        "governor"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Governors (Emoluments, Allowances and Privileges) Act, 2014",
+      "section": "12A",
+      "title": "Entitlement of ex-Governor to secretarial assistance",
+      "description": "The ex-Governor shall, for the remainder of his life, be entitled to secretarial assistance of one Personal Assistant on reimbursement basis. Provided that where such ex-Governor is re-appointed to the office of the Governor or elected to Parliament or the State Legislature or appointed to any office of profit, he shall not be entitled for such secretarial assistance for that period.",
+      "simpleExplanation": "Former Governors are allowed to have one Personal Assistant for the rest of their lives, and the government will pay for it. However, if they take another government job or get elected to office, they lose this benefit while holding that new position.",
+      "punishments": [],
+      "keywords": [
+        "ex-governor",
+        "personal assistant",
+        "secretarial assistance",
+        "reimbursement"
+      ],
+      "relatedSections": [
+        {
+          "section": "2(a)",
+          "relationType": "REFERENCE",
+          "description": "Defines 'ex-Governor' as a person who has been the Governor of a State or two or more States."
+        }
+      ]
+    },
+    {
+      "actName": "The Governors (Emoluments, Allowances and Privileges) Act, 1982",
+      "section": "7",
+      "title": "Leave of absence and leave allowance",
+      "description": "A Governor shall be entitled to such leave and for such purposes as may be prescribed. During the period of such leave, he shall be entitled to leave allowance at the rate of Rs. 3,50,000 per mensem.",
+      "simpleExplanation": "Governors can take official leave for specific reasons. While they are on leave, they still receive their full monthly salary of 3,50,000 rupees as a leave allowance.",
+      "punishments": [],
+      "keywords": [
+        "leave",
+        "allowance",
+        "salary"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Governors (Emoluments, Allowances and Privileges) Act, 1982",
+      "section": "8",
+      "title": "Medical treatment",
+      "description": "A Governor and the members of his family shall be entitled to free medical attendance, accommodation and treatment in the same manner and to the same extent as is admissible to the highest category of officers of the Central Government.",
+      "simpleExplanation": "Governors and their dependent families (spouse, children, and parents) receive free medical care, hospital stays, and treatment at the same high level as top-ranking Central Government officers.",
+      "punishments": [],
+      "keywords": [
+        "medical",
+        "health",
+        "family",
+        "hospitalization"
+      ],
+      "relatedSections": [
+        {
+          "section": "2(c)",
+          "relationType": "REFERENCE",
+          "description": "Defines 'members of the family' to include spouse, dependent children, and dependent parents."
+        }
+      ]
+    }
+  ]
+}

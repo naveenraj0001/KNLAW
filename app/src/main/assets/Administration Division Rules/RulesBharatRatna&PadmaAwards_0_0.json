@@ -1,0 +1,37 @@
+{
+  "laws": [
+    {
+      "actName": "Rules relating to the awards of Bharat Ratna, Padma Vibhushan, Padma Bhushan and Padma Shri",
+      "section": "Rule 10 (Bharat Ratna) / Rule 8 (Padma Awards)",
+      "title": "Prohibition on use of Award as Title",
+      "description": "The award does not amount to a title and shall not be used as a suffix or prefix to the name of the recipient in any manner whatsoever.",
+      "simpleExplanation": "These awards are honors, not titles. Recipients are strictly forbidden from adding the name of the award (like 'Bharat Ratna' or 'Padma Shri') before or after their name on letterheads, invitation cards, posters, or books.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "OTHER",
+          "description": "The President may cancel and annul the award of the decoration to any person and thereupon his name shall be erased from the Register and he shall be required to surrender the decoration and the Sanad."
+        }
+      ],
+      "keywords": [
+        "bharat ratna",
+        "padma awards",
+        "title",
+        "prefix",
+        "suffix",
+        "annulment",
+        "forfeiture"
+      ],
+      "relatedSections": [
+        {
+          "section": "Rule 10 (Padma)",
+          "relationType": "REFERENCE",
+          "description": "Outlines the power of the President to cancel and annul the award if the recipient uses it as a title."
+        }
+      ]
+    }
+  ]
+}

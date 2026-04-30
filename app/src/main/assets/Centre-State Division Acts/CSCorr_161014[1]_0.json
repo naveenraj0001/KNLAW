@@ -1,0 +1,26 @@
+{
+  "laws": [
+    {
+      "actName": "The Andhra Pradesh Reorganisation Act, 2014 (Corrigenda)",
+      "section": "Various (Corrections)",
+      "title": "Corrections and Amendments to Spelling and Nomenclature",
+      "description": "Corrigenda to the Andhra Pradesh Reorganisation Act, 2014 (6 of 2014) to correct typographical errors, spellings of districts, and names of cooperative societies and corporations.",
+      "simpleExplanation": "This document acts as a formal correction sheet for the original Andhra Pradesh Reorganisation Act. It fixes spelling mistakes for places (like changing 'Rangareddi' to 'Ranga Reddy') and updates the official names of several government-run societies and corporations to ensure legal accuracy.",
+      "punishments": [],
+      "keywords": [
+        "corrigenda",
+        "corrections",
+        "ranga reddy",
+        "nomenclature",
+        "co-operative societies"
+      ],
+      "relatedSections": [
+        {
+          "section": "Schedule",
+          "relationType": "AMENDMENT",
+          "description": "Corrects the names of various backward class cooperative societies and corporations listed in the original schedules."
+        }
+      ]
+    }
+  ]
+}

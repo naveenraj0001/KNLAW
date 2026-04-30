@@ -1,0 +1,60 @@
+{
+  "laws": [
+    {
+      "actName": "The Governors (Emoluments, Allowances and Privileges) Amendment Act, 2014 (No. 8 of 2014)",
+      "section": "2",
+      "title": "Amendment of section 2",
+      "description": "Substitutes clause (a) with new definitions for 'ex-Governor' and 'Governor'. 'ex-Governor' refers to a person who has served as Governor for one or more States. 'Governor' includes those discharging the functions of the Governor for one or more States.",
+      "simpleExplanation": "This section updates the legal definitions of who counts as a current Governor or a former (ex) Governor under the law[cite: 9].",
+      "punishments": [],
+      "keywords": [
+        "governor",
+        "ex-governor",
+        "definitions",
+        "states"
+      ],
+      "relatedSections": [
+        {
+          "section": "12A",
+          "relationType": "REFERENCE",
+          "description": "The definition of 'ex-Governor' determines eligibility for the secretarial assistance provided in the new section 12A[cite: 9]."
+        }
+      ]
+    },
+    {
+      "actName": "The Governors (Emoluments, Allowances and Privileges) Amendment Act, 2014 (No. 8 of 2014)",
+      "section": "3 (Insertion of 12A)",
+      "title": "Entitlement of ex-Governor to secretarial assistance",
+      "description": "Inserts section 12A, granting an ex-Governor entitlement to secretarial assistance of one Personal Assistant on a reimbursement basis for the remainder of their life. This entitlement is suspended if the ex-Governor is re-appointed to the office of Governor, elected to Parliament/State Legislature, or appointed to an office of profit.",
+      "simpleExplanation": "Former Governors get a personal assistant paid for by the government for life. However, if they get a new government job or are elected to office, they lose this perk while they are working that new job[cite: 9].",
+      "punishments": [],
+      "keywords": [
+        "secretarial assistance",
+        "personal assistant",
+        "reimbursement",
+        "office of profit"
+      ],
+      "relatedSections": [
+        {
+          "section": "13",
+          "relationType": "AMENDMENT",
+          "description": "Amended to allow the government to make specific rules regarding how this reimbursement and assistance are handled[cite: 9]."
+        }
+      ]
+    },
+    {
+      "actName": "The Governors (Emoluments, Allowances and Privileges) Amendment Act, 2014 (No. 8 of 2014)",
+      "section": "4",
+      "title": "Amendment of section 13",
+      "description": "Amends sub-section (2) of section 13 to include clause (h), which empowers the creation of rules regarding the manner of providing secretarial assistance and reimbursement under section 12A.",
+      "simpleExplanation": "This gives the government the power to create official rules on how the personal assistant benefits for former Governors will actually be managed and paid back[cite: 9].",
+      "punishments": [],
+      "keywords": [
+        "rules",
+        "reimbursement",
+        "administration"
+      ],
+      "relatedSections": []
+    }
+  ]
+}
