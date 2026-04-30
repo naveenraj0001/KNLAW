@@ -26,4 +26,13 @@ public interface LawDao {
 
     @Query("SELECT * FROM laws WHERE actName LIKE '%' || :search || '%'")
     List<Law> searchByAct(String search);
+
+    @Query("SELECT * FROM laws l WHERE NOT EXISTS ( SELECT 1 FROM keywords k WHERE k.lawId = l.id AND LOWER(k.keyword) = 'civil')")
+    List<Law> getAllCriminalLaws();
+
+    @Query("SELECT * FROM laws l WHERE EXISTS ( SELECT 1 FROM keywords k WHERE k.lawId = l.id AND LOWER(k.keyword) = 'family')")
+    List<Law> getFamilyLaws();
+
+    @Query("SELECT * FROM laws l WHERE EXISTS ( SELECT 1 FROM keywords k WHERE k.lawId = l.id AND LOWER(k.keyword) = 'fundamental')")
+    List<Law> getFundamentalRights();
 }

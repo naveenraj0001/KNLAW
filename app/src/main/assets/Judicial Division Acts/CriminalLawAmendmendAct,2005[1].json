@@ -1,0 +1,190 @@
+{
+  "laws": [
+    {
+      "actName": "Indian Penal Code",
+      "section": "153AA",
+      "title": "Punishment for knowingly carrying arms in any procession or organizing, or holding or taking part in any mass drill or mass training with arms",
+      "description": "Whoever knowingly carries arms in any procession or organizes or holds or takes part in any mass drill or mass training with arms in any public place in contravention of any public notice or order issued or made under section 144A of the Code of Criminal Procedure, 1973.",
+      "simpleExplanation": "It is a crime to carry weapons in a public parade or participate in group weapon training if the District Magistrate has specifically banned it to maintain public peace.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 180,
+          "minimumFine": null,
+          "maximumFine": 2000,
+          "punishmentType": "BOTH",
+          "description": "Punished with imprisonment for a term which may extend to six months and with fine which may extend to two thousand rupees."
+        }
+      ],
+      "keywords": [
+        "arms",
+        "procession",
+        "mass drill",
+        "mass training",
+        "section 144a",
+        "public place"
+      ],
+      "relatedSections": [
+        {
+          "section": "144A of CrPC",
+          "relationType": "REFERENCE",
+          "description": "This section empowers the District Magistrate to issue the order prohibiting arms."
+        }
+      ]
+    },
+    {
+      "actName": "Indian Penal Code",
+      "section": "174A",
+      "title": "Non-appearance in response to a proclamation under section 82 of Act 2 of 1974",
+      "description": "Punishes any person who fails to appear at the specified place and time required by a proclamation published under section 82(1) of the Code of Criminal Procedure.",
+      "simpleExplanation": "If the court issues a public notice (proclamation) for you to show up because you are avoiding a warrant, and you ignore it, you face jail. The penalty is much higher if the court has officially declared you a 'proclaimed offender'.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1095,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment for a term which may extend to three years, or with fine, or with both for failing to appear as per a proclamation under section 82(1)."
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 2555,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Where a declaration has been made under section 82(4) pronouncing a person as a proclaimed offender, he shall be punished with imprisonment for a term which may extend to seven years and shall also be liable to fine."
+        }
+      ],
+      "keywords": [
+        "non-appearance",
+        "proclamation",
+        "section 82",
+        "proclaimed offender",
+        "absconding"
+      ],
+      "relatedSections": [
+        {
+          "section": "82 of CrPC",
+          "relationType": "REFERENCE",
+          "description": "The section under which a proclamation is published for an absconding person."
+        }
+      ]
+    },
+    {
+      "actName": "Indian Penal Code",
+      "section": "229A",
+      "title": "Failure by person released on bail or bond to appear in Court",
+      "description": "Punishes any person who, having been charged with an offence and released on bail or bond, fails without sufficient cause to appear in Court in accordance with the terms of the bail or bond.",
+      "simpleExplanation": "If you are released from custody on the condition that you show up for your court dates, but you skip court without a valid excuse, you are committing a separate crime.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 365,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Imprisonment of either description for a term which may extend to one year, or with fine, or with both."
+        }
+      ],
+      "keywords": [
+        "bail",
+        "bond",
+        "failure to appear",
+        "court",
+        "absconding"
+      ],
+      "relatedSections": [
+        {
+          "section": "446 of CrPC",
+          "relationType": "REFERENCE",
+          "description": "Relates to the power of the Court to order forfeiture of the bond if the person fails to appear."
+        }
+      ]
+    },
+    {
+      "actName": "Code of Criminal Procedure, 1973",
+      "section": "46(4)",
+      "title": "Arrest of woman",
+      "description": "Provides that save in exceptional circumstances, no woman shall be arrested after sunset and before sunrise.",
+      "simpleExplanation": "Generally, women cannot be arrested at night. If there are rare, exceptional reasons to do so, a woman police officer must get written permission from a first-class Magistrate before making the arrest.",
+      "punishments": [],
+      "keywords": [
+        "woman arrest",
+        "sunset",
+        "sunrise",
+        "magistrate permission",
+        "exceptional circumstances"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Code of Criminal Procedure, 1973",
+      "section": "144A",
+      "title": "Power to prohibit carrying arms in procession or mass drill or mass training with arms",
+      "description": "Empowers the District Magistrate to prohibit the carrying of arms in any procession or the organizing of mass drills or training with arms in a public place for the preservation of public peace.",
+      "simpleExplanation": "To ensure public safety, the District Magistrate can ban weapons in parades or group trainings for up to three months.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 180,
+          "minimumFine": null,
+          "maximumFine": 2000,
+          "punishmentType": "BOTH",
+          "description": "Violation of an order under this section is punishable under section 153AA of the Indian Penal Code."
+        }
+      ],
+      "keywords": [
+        "arms prohibition",
+        "district magistrate",
+        "public order",
+        "procession",
+        "mass drill"
+      ],
+      "relatedSections": [
+        {
+          "section": "153AA of IPC",
+          "relationType": "REFERENCE",
+          "description": "Provides the specific penalty for contravening a public notice or order issued under section 144A."
+        }
+      ]
+    },
+    {
+      "actName": "Code of Criminal Procedure, 1973",
+      "section": "436A",
+      "title": "Maximum period for which an undertrial prisoner can be detained",
+      "description": "Stipulates that an undertrial prisoner who has been detained for a period extending up to one-half of the maximum imprisonment specified for the alleged offence shall be released on personal bond.",
+      "simpleExplanation": "If you are in jail waiting for your trial and have already served half the time you would have served if you were convicted, the court must release you, unless there are strong reasons to keep you.",
+      "punishments": [],
+      "keywords": [
+        "undertrial",
+        "detention",
+        "bail",
+        "personal bond",
+        "maximum period"
+      ],
+      "relatedSections": [
+        {
+          "section": "436 of CrPC",
+          "relationType": "REFERENCE",
+          "description": "Relates to the general provisions for bail in bailable offences."
+        }
+      ]
+    },
+    {
+      "actName": "Code of Criminal Procedure, 1973",
+      "section": "50A",
+      "title": "Obligation of person making arrest to inform about the arrest, etc., to a nominated person",
+      "description": "Requires every person making an arrest to immediately inform a friend, relative, or person nominated by the arrested person about the arrest and the place of detention.",
+      "simpleExplanation": "When someone is arrested, the police must immediately notify a person chosen by the individual and record that this was done in the police station's records.",
+      "punishments": [],
+      "keywords": [
+        "arrest information",
+        "nominated person",
+        "police station entry",
+        "arrest rights"
+      ],
+      "relatedSections": []
+    }
+  ]
+}
