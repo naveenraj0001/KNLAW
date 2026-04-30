@@ -1,0 +1,273 @@
+{
+  "laws": [
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "10",
+      "title": "Ineligibility (Plural Marriage)",
+      "description": "Any person subject to the Act who contracts or enters into a second marriage during the lifetime of his first spouse shall render himself ineligible for retention in service and may be dismissed, removed or retired from service on ground of unsuitability, unless exempted by the Central Government.[cite: 4]",
+      "simpleExplanation": "You can be dismissed, removed, or forced to retire if you marry a second time while your first spouse is still alive, unless the government makes a special exception for you.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Dismissed, removed or retired from service on ground of unsuitability.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "ineligibility",
+        "second marriage",
+        "plural marriage",
+        "dismissal",
+        "removal",
+        "retirement"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "18(5)",
+      "title": "Termination of service of officers by the Central Government on account of misconduct",
+      "description": "The Central Government may remove or dismiss the officer or retire or get his resignation from service, and on his refusing to do so, the officer may be compulsorily retired or removed from the service.[cite: 4]",
+      "simpleExplanation": "If an officer commits misconduct, the government can fire them, force them to retire, or ask them to resign. If they refuse to resign, they will be forced to leave.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Remove or dismiss the officer or retire or get his resignation from service, or compulsorily retire or remove from the service.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "misconduct",
+        "dismissal",
+        "removal",
+        "retirement",
+        "resignation",
+        "officer"
+      ],
+      "relatedSections": [
+        {
+          "section": "19",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of Officers by the Central Government on grounds of un-suitability.[cite: 4]"
+        },
+        {
+          "section": "20",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of persons, other than officers on account of misconduct.[cite: 4]"
+        }
+      ]
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "19(3)",
+      "title": "Termination of service of Officers by the Central Government on grounds of un-suitability",
+      "description": "The Central Government After considering the reports, the explanation, if any, of the officer and the recommendation of the Director General, may call upon the officer to retire or resign and on his refusing to do so, the office may be compulsorily retired from the service.[cite: 4]",
+      "simpleExplanation": "If an officer is found unsuitable, they can be asked to retire or resign. If they refuse, they will be forced to retire.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Call upon the officer to retire or resign and on his refusing to do so, compulsorily retire from the service.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "unsuitability",
+        "retirement",
+        "resignation",
+        "compulsory retirement",
+        "officer"
+      ],
+      "relatedSections": [
+        {
+          "section": "18",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of officers by the Central Government on account of misconduct.[cite: 4]"
+        }
+      ]
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "20(3)",
+      "title": "Termination of service of persons, other than officers on account of misconduct",
+      "description": "The authority as specified in rule 17 After considering his explanation and defence, if any, or the judgment of the criminal court, as the case may be, may dismiss or remove him from the service.[cite: 4]",
+      "simpleExplanation": "Non-officers can be fired or removed from service for misconduct after their explanation is heard.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Dismiss or remove him from the service.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "misconduct",
+        "dismissal",
+        "removal",
+        "non-officer"
+      ],
+      "relatedSections": [
+        {
+          "section": "18",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of officers by the Central Government on account of misconduct.[cite: 4]"
+        }
+      ]
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "21(3)",
+      "title": "Discharge from service on grounds of unsatisfactory progress in training",
+      "description": "The Central Government or as the case may be the authority as specified in rule 17, on receipt of recommendation under sub-rule (1), may discharge or release the person concerned from the service.[cite: 4]",
+      "simpleExplanation": "If someone doesn't do well in training after being warned, they can be discharged from the service.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Discharge or release the person concerned from the service.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "discharge",
+        "release",
+        "unsatisfactory progress",
+        "training"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "22",
+      "title": "Termination of service on grounds of furnishing false / incorrect information at the time of appointment",
+      "description": "The Central Government, or as the case may be, the authority as specified in rule 17, may termination the service of a person subject to the Act on grounds of furnishing false/incorrect information at the time of appointment of that person in the service.[cite: 4]",
+      "simpleExplanation": "If you lie or give wrong information when you get hired, you can be fired after a one-month notice.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Termination the service.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "false information",
+        "incorrect information",
+        "appointment"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "24(3)",
+      "title": "Termination of service of subordinate officers by the authorities as specified in rule 17 on the grounds of unsuitability",
+      "description": "The authority as prescribed in rule 17 After considering the report and the explanation, if any, of the subordinate officer and the recommendations of the Commanding Officer not below the rank of Commandant, may call upon the subordinate officer to retire or resign and on, his refusing to do so, the subordinate officer may be compulsorily retired or discharged from the service.[cite: 4]",
+      "simpleExplanation": "If a subordinate officer is found unsuitable, they can be asked to retire or resign, and if they refuse, they can be forced to retire or be discharged.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Call upon the subordinate officer to retire or resign and on, his refusing to do so, compulsorily retired or discharged from the service.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "unsuitability",
+        "subordinate officer",
+        "retirement",
+        "resignation",
+        "discharge"
+      ],
+      "relatedSections": [
+        {
+          "section": "19",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of Officers by the Central Government on grounds of un-suitability.[cite: 4]"
+        },
+        {
+          "section": "25",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of enrolled (persons on the grounds of unsuitability.[cite: 4]"
+        }
+      ]
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "25(2)",
+      "title": "Termination of service of enrolled (persons on the grounds of unsuitability",
+      "description": "After considering the explanation, if any, the Commanding Officer not below the rank of Commandant, may call upon the enrolled person to retire or resign and on his refusing to do so, the enrolled person may be compulsorily retired or discharged from the service.[cite: 4]",
+      "simpleExplanation": "If an enrolled person is found unsuitable, they can be asked to retire or resign, and if they refuse, they can be forced to retire or be discharged.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Call upon the enrolled person to retire or resign and on his refusing to do so, compulsorily retired or discharged from the service.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "unsuitability",
+        "enrolled person",
+        "retirement",
+        "resignation",
+        "discharge"
+      ],
+      "relatedSections": [
+        {
+          "section": "24",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of subordinate officers by the authorities as specified in rule 17 on the grounds of unsuitability.[cite: 4]"
+        }
+      ]
+    },
+    {
+      "actName": "Indo-Tibetan Border Police Rules, 1994",
+      "section": "27(1)",
+      "title": "Resignation (Penalty)",
+      "description": "The Central Government may, having regard to the special circumstances of any case, permit any officer of the Force to resign from the Force before the attainment of the age of retirement or before putting in such number of years of service as may be prescribed by the Government. Provided that while granting such permission the Central Government may require the officer to refund to the Government 3 months pay and allowances or the cost of training given to that officer whichever is more.[cite: 4]",
+      "simpleExplanation": "If you resign before you're supposed to, the government can make you pay back three months of your salary or the cost of your training, whichever is higher.[cite: 4]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Refund to the Government 3 months pay and allowances or the cost of training given to that officer whichever is more.[cite: 4]"
+        }
+      ],
+      "keywords": [
+        "resignation",
+        "refund",
+        "pay",
+        "allowances",
+        "training cost"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

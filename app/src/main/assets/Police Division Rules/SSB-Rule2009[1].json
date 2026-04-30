@@ -1,0 +1,269 @@
+{
+  "laws": [
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "11(2)",
+      "title": "Ineligibility (Plural Marriage)",
+      "description": "Any person subject to the Act, who contracts or enters into a second marriage during the life time of his first spouse shall render himself ineligible for retention in service and may be dismissed, removed or retired from service on ground of unsuitability.[cite: 6]",
+      "simpleExplanation": "If a member marries a second time while their first spouse is still alive, they become ineligible to remain in service and can be dismissed, removed, or forced to retire.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Dismissed, removed or retired from service on ground of unsuitability.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "ineligibility",
+        "second marriage",
+        "plural marriage",
+        "dismissal",
+        "removal",
+        "retirement"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "19(5)",
+      "title": "Termination of service of officers by the Central Government on account of misconduct",
+      "description": "The Central Government, after considering the reports and the officer's defence, if any, or the judgment of the criminal court, as the case may be, and the recommendation of the Director-General, may remove or dismiss the officer or retire or get his resignation from service, and on his refusing to do so, the officer may be compulsorily retired or removed from the service.[cite: 6]",
+      "simpleExplanation": "If an officer commits misconduct, the government can dismiss or remove them, or ask them to retire or resign. If they refuse, they can be compulsorily retired or removed.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Remove or dismiss the officer or retire or get his resignation from service, or compulsorily retire or remove from the service.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "misconduct",
+        "dismissal",
+        "removal",
+        "retirement",
+        "officer"
+      ],
+      "relatedSections": [
+        {
+          "section": "20",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of officers by the Central Government on grounds of unsuitability.[cite: 6]"
+        },
+        {
+          "section": "21",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of persons, other than officers on account of misconduct.[cite: 6]"
+        }
+      ]
+    },
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "20(3)",
+      "title": "Termination of service of officers by the Central Government on grounds of unsuitability",
+      "description": "The Central Government after considering the reports, the explanation, if any, of the officer and the recommendation of the Director-General, may call upon the officer to retire or resign and on his refusing to do so, the officer may be compulsorily retired from the service.[cite: 6]",
+      "simpleExplanation": "If an officer is found unsuitable, they can be asked to retire or resign, and if they refuse, they will be compulsorily retired.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Call upon the officer to retire or resign and on his refusing to do so, compulsorily retired from the service.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "unsuitability",
+        "retirement",
+        "resignation",
+        "compulsory retirement",
+        "officer"
+      ],
+      "relatedSections": [
+        {
+          "section": "19",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of officers by the Central Government on account of misconduct.[cite: 6]"
+        }
+      ]
+    },
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "21(3)",
+      "title": "Termination of service of persons, other than officers on account of misconduct",
+      "description": "The authority as specified in rule 18 after considering his explanation and defence, if any, or the judgment of the criminal court, as the case may be, may dismiss or remove him from the service.[cite: 6]",
+      "simpleExplanation": "Non-officers can be dismissed or removed from service for misconduct.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Dismiss or remove from the service.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "misconduct",
+        "dismissal",
+        "removal",
+        "non-officer"
+      ],
+      "relatedSections": [
+        {
+          "section": "19",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of officers by the Central Government on account of misconduct.[cite: 6]"
+        }
+      ]
+    },
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "22(3)",
+      "title": "Discharge from service on grounds of unsatisfactory progress in training",
+      "description": "The Central Government, or as the case may be, the authority as specified in rule 18, on receipt of recommendation under sub-rule (1), may discharge or release the person concerned from the service.[cite: 6]",
+      "simpleExplanation": "If someone does not make satisfactory progress during their training, they can be discharged or released from service.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Discharge or release from the service.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "discharge",
+        "release",
+        "unsatisfactory progress",
+        "training"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "23",
+      "title": "Termination of service on grounds of furnishing false or incorrect information at the time of appointment",
+      "description": "The Central Government, or as the case may be, the authority as specified in rule 18, may terminate the service of a person subject to the Act on grounds of furnishing false or incorrect information at the time of appointment of that person in the service and a show cause notice giving one month's time shall be issued to the individual before termination of his service.[cite: 6]",
+      "simpleExplanation": "Providing false or incorrect information when getting hired will lead to termination of service after a one-month notice.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Termination of service.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "false information",
+        "incorrect information",
+        "appointment"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "25(3)",
+      "title": "Termination of service of subordinate officers by the authorities as specified in rule 18 on the grounds of unsuitability",
+      "description": "The authority as prescribed in rule 18 after considering the report and the explanation, if any, of the subordinate officer and the recommendations of the Commanding Officer not below the rank of Commandant, may call upon the subordinate officer to retire or resign and on, his refusing to do so, the subordinate officer may be compulsorily retired or discharged from the service.[cite: 6]",
+      "simpleExplanation": "Subordinate officers found unsuitable can be asked to retire or resign. If they refuse, they can be compulsorily retired or discharged.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Call upon the subordinate officer to retire or resign and on his refusing to do so, compulsorily retired or discharged from the service.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "unsuitability",
+        "subordinate officer",
+        "retirement",
+        "discharge"
+      ],
+      "relatedSections": [
+        {
+          "section": "20",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of officers by the Central Government on grounds of unsuitability.[cite: 6]"
+        },
+        {
+          "section": "26",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of enrolled persons on the grounds of unsuitability.[cite: 6]"
+        }
+      ]
+    },
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "26(2)",
+      "title": "Termination of service of enrolled persons on the grounds of unsuitability",
+      "description": "After considering the explanation, if any, the Commanding Officer not below the rank of Commandant, may call upon the enrolled person to retire or resign and on his refusing to do so, the enrolled person may be compulsorily retired or discharged from the service.[cite: 6]",
+      "simpleExplanation": "Enrolled persons found unsuitable can be asked to retire or resign. If they refuse, they can be compulsorily retired or discharged.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Call upon the enrolled person to retire or resign and on his refusing to do so, compulsorily retired or discharged from the service.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "unsuitability",
+        "enrolled person",
+        "retirement",
+        "discharge"
+      ],
+      "relatedSections": [
+        {
+          "section": "25",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of subordinate officers by the authorities as specified in rule 18 on the grounds of unsuitability.[cite: 6]"
+        }
+      ]
+    },
+    {
+      "actName": "Sashastra Seema Bal Rules, 2009",
+      "section": "28(1)",
+      "title": "Resignation",
+      "description": "While granting permission to resign before completing the term of engagement, the Central Government may require the officer to refund to the Government such amount as would constitute the cost of training given to that officer or three months pay and allowances, whichever is higher.[cite: 6]",
+      "simpleExplanation": "If an officer resigns early, they may be required to refund the cost of their training or three months' pay and allowances, whichever amount is greater.[cite: 6]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Refund such amount as would constitute the cost of training given to that officer or three months pay and allowances, whichever is higher.[cite: 6]"
+        }
+      ],
+      "keywords": [
+        "resignation",
+        "refund",
+        "training cost",
+        "pay and allowances"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

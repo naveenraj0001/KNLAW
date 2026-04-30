@@ -1,0 +1,91 @@
+{
+  "laws": [
+    {
+      "actName": "National Security Guard Rules, 1987",
+      "section": "7(2)",
+      "title": "Ineligibility (Plural Marriage)",
+      "description": "Any person subject to the Act, who contracts or enters into a second marriage during the lifetime of his first spouse, shall render himself ineligible for retention in service and may be dismissed, removed or retired from service on ground of unsuitability.[cite: 5]",
+      "simpleExplanation": "If a member marries a second time while their first spouse is still alive, they become ineligible for service and can be dismissed, removed, or forced to retire.[cite: 5]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Dismissed, removed or retired from service on ground of unsuitability.[cite: 5]"
+        }
+      ],
+      "keywords": [
+        "ineligibility",
+        "second marriage",
+        "plural marriage",
+        "dismissal",
+        "removal",
+        "retirement"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "National Security Guard Rules, 1987",
+      "section": "15(5)",
+      "title": "Termination of service of officers by the Central Government on account of mis-conduct",
+      "description": "The Central Government may remove or dismiss the officer with or without pension or retire or get his resignation from service, and on his refusing to do so, the officer may be compulsorily retired or removed from the service with pension or gratuity, if any, admissible to him.[cite: 5]",
+      "simpleExplanation": "If an officer commits misconduct, the government can dismiss or remove them, or force them to retire or resign.[cite: 5]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Remove or dismiss the officer with or without pension or retire or get his resignation from service, or compulsorily retire or remove from the service.[cite: 5]"
+        }
+      ],
+      "keywords": [
+        "termination",
+        "misconduct",
+        "dismissal",
+        "removal",
+        "retirement",
+        "officer"
+      ],
+      "relatedSections": [
+        {
+          "section": "16",
+          "relationType": "SIMILAR",
+          "description": "Termination of service of officers by the Central Government on grounds other than mis-conduct.[cite: 5]"
+        },
+        {
+          "section": "17",
+          "relationType": "SIMILAR",
+          "description": "Dismissal or removal of persons other than officers on account of mis-conduct.[cite: 5]"
+        }
+      ]
+    },
+    {
+      "actName": "National Security Guard Rules, 1987",
+      "section": "22(1)",
+      "title": "Resignation",
+      "description": "While granting permission to resign before the attainment of the age of the retirement, the Central Government may require the officer to refund to the Government such amount as would constitute the cost of training given to that officer; or order such reduction in the pension or other pensionary benefits.[cite: 5]",
+      "simpleExplanation": "If an officer resigns early, the government can require them to refund their training costs or accept a reduced pension.[cite: 5]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Refund such amount as would constitute the cost of training given to that officer, or reduction in the pension or other pensionary benefits.[cite: 5]"
+        }
+      ],
+      "keywords": [
+        "resignation",
+        "refund",
+        "training cost",
+        "pension reduction"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

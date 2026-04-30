@@ -1,0 +1,94 @@
+{
+  "laws": [
+    {
+      "actName": "Central Reserve Police Force Rules, 1955",
+      "section": "17.A",
+      "title": "Recoveries on Resignation and Discharge",
+      "description": "A member of the Force seeking resignation under rule 16 or discharge under rule 17 from service shall be required to refund to the Government a sum equal to three months pay and allowances received by him or her prior to the resignation or discharge, as the case may be or the cost of training imparted to him or her in the Force whichever is higher.[cite: 3]",
+      "simpleExplanation": "If a member resigns or asks to be discharged from the Force, they must refund either the cost of their training or an amount equal to three months of their pay and allowances, depending on which amount is greater.[cite: 3]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Refund a sum equal to three months pay and allowances or the cost of training, whichever is higher.[cite: 3]"
+        }
+      ],
+      "keywords": [
+        "resignation",
+        "discharge",
+        "refund",
+        "training cost"
+      ],
+      "relatedSections": [
+        {
+          "section": "16",
+          "relationType": "REFERENCE",
+          "description": "Relates to the rules and conditions for resignation and period of service.[cite: 3]"
+        },
+        {
+          "section": "17",
+          "relationType": "REFERENCE",
+          "description": "Relates to the conditions under which a member can claim discharge from the Force.[cite: 3]"
+        }
+      ]
+    },
+    {
+      "actName": "Central Reserve Police Force Rules, 1955",
+      "section": "27(a)",
+      "title": "Procedure for the Award of Punishments",
+      "description": "Specifies the punishments that may be inflicted on non-Gazetted Officers and men, including fines, confinement to the Quarter Guard, and confinement to lines or camp with extra duties.[cite: 3]",
+      "simpleExplanation": "Non-gazetted personnel can face various disciplinary punishments for misconduct, such as monetary fines or physical confinement to quarters or camp with extra fatigue duties.[cite: 3]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Fine of any amount not exceeding one month's pay and allowance.[cite: 3]"
+        },
+        {
+          "minimumDuration": 8,
+          "maximumDuration": 20,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Confinement in the Q/G exceeding seven days but not more than 20 days with or without punishment drill of extra guard fatigue or other duty.[cite: 3]"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 7,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Confinement to Q/G for not more than 7 days with or without punishment or extra guard fatigue or other duty.[cite: 3]"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 30,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Confinement to Q/lines, camp, punishment drill, fatigue duties etc for a term not exceeding one month.[cite: 3]"
+        }
+      ],
+      "keywords": [
+        "punishment",
+        "fine",
+        "confinement",
+        "quarter guard",
+        "fatigue duty"
+      ],
+      "relatedSections": [
+        {
+          "section": "32",
+          "relationType": "REFERENCE",
+          "description": "Refers to petty cases of misconduct being dealt with in the Orderly Room for punishments.[cite: 3]"
+        }
+      ]
+    }
+  ]
+}

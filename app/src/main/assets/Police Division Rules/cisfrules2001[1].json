@@ -1,0 +1,100 @@
+{
+  "laws": [
+    {
+      "actName": "Central Industrial Security Force Rules, 2001",
+      "section": "34(x)",
+      "title": "Fine as a Minor Penalty",
+      "description": "A fine may be imposed on an enrolled member of the Force for good and sufficient reasons as a minor penalty.[cite: 1]",
+      "simpleExplanation": "Enrolled members of the CISF can be fined a small portion of their salary as a punishment for misconduct.[cite: 1]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Fine to any amount not exceeding of 7 days pay.[cite: 1]"
+        }
+      ],
+      "keywords": [
+        "minor penalty",
+        "fine",
+        "enrolled member",
+        "disciplinary action"
+      ],
+      "relatedSections": [
+        {
+          "section": "32",
+          "relationType": "REFERENCE",
+          "description": "Defines the Disciplinary Authority competent to impose penalties.[cite: 1]"
+        },
+        {
+          "section": "35",
+          "relationType": "SIMILAR",
+          "description": "Relates to petty punishments for Head Constables, Constables, and Followers.[cite: 1]"
+        }
+      ]
+    },
+    {
+      "actName": "Central Industrial Security Force Rules, 2001",
+      "section": "35",
+      "title": "Petty Punishments",
+      "description": "Head Constable, Constable and Follower may also be awarded extra drill, guard, fatigue or other duty as punishment.[cite: 1]",
+      "simpleExplanation": "Lower-ranking members can be given extra duties or drills for minor disciplinary breaches.[cite: 1]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 14,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "BOTH",
+          "description": "Extra drill, guard, fatigue or other duty for a term not exceeding fourteen days.[cite: 1]"
+        }
+      ],
+      "keywords": [
+        "extra drill",
+        "fatigue",
+        "head constable",
+        "constable",
+        "follower"
+      ],
+      "relatedSections": [
+        {
+          "section": "38",
+          "relationType": "REFERENCE",
+          "description": "Specifies that petty punishments are ordinarily awarded in the Orderly room.[cite: 1]"
+        }
+      ]
+    },
+    {
+      "actName": "Central Industrial Security Force Rules, 2001",
+      "section": "58",
+      "title": "Resignation and Training Cost Refund",
+      "description": "Members resigning within ten years of appointment for reasons other than a cleared job elsewhere must refund training costs or pay.[cite: 1]",
+      "simpleExplanation": "If you leave the Force early (within 10 years), you have to pay back the cost of your training or three months of salary.[cite: 1]",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Refund the cost of training imparted or a sum equal to three months' pay and allowances, whichever is more.[cite: 1]"
+        }
+      ],
+      "keywords": [
+        "resignation",
+        "training cost",
+        "refund",
+        "probation"
+      ],
+      "relatedSections": [
+        {
+          "section": "21",
+          "relationType": "REFERENCE",
+          "description": "Relates to the agreement executed at the time of initial appointment.[cite: 1]"
+        }
+      ]
+    }
+  ]
+}
