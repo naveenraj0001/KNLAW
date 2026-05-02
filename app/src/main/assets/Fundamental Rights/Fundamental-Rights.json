@@ -1,0 +1,115 @@
+{
+  "laws": [
+    {
+      "actName": "The Constitution of India",
+      "section": "Article 13",
+      "title": "Laws inconsistent with or in derogation of the fundamental rights",
+      "description": "Declares that all laws in force in India before the commencement of the Constitution, as well as any laws made by the State thereafter, are void if they are inconsistent with or take away the rights conferred by Part III (Fundamental Rights).",
+      "simpleExplanation": "This article ensures that the basic rights of citizens come first. If any old law or new law goes against these fundamental rights, that law will not be valid.",
+      "punishments": [],
+      "keywords": [
+        "fundamental",
+        "void",
+        "inconsistent",
+        "constitution",
+        "state"
+      ],
+      "relatedSections": [
+        {
+          "section": "Article 368",
+          "relationType": "REFERENCE",
+          "description": "Clarifies that amendments made under Article 368 are not subject to the restrictions of Article 13."
+        }
+      ]
+    },
+    {
+      "actName": "The Constitution of India",
+      "section": "Article 14",
+      "title": "Equality before law",
+      "description": "Mandates that the State shall not deny any person equality before the law or the equal protection of the laws within the territory of India.",
+      "simpleExplanation": "The government must treat everyone equally. No one is above the law, and everyone has the right to the same legal protection.",
+      "punishments": [],
+      "keywords": [
+        "fundamental",
+        "equality",
+        "protection",
+        "law",
+        "state"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Constitution of India",
+      "section": "Article 15",
+      "title": "Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth",
+      "description": "Prohibits the State and citizens from discriminating against any individual based on religion, race, caste, sex, or place of birth regarding access to public places like shops, restaurants, and public wells.",
+      "simpleExplanation": "This law stops discrimination. It ensures that everyone has the same right to enter public shops, parks, or use public water sources regardless of their background.",
+      "punishments": [],
+      "keywords": [
+        "fundamental",
+        "discrimination",
+        "religion",
+        "caste",
+        "equality"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Constitution of India",
+      "section": "Article 17",
+      "title": "Abolition of Untouchability",
+      "description": "Abolishes 'Untouchability' and forbids its practice in any form. It declares that enforcing any disability arising out of untouchability is an offence punishable by law.",
+      "simpleExplanation": "This article completely bans the practice of untouchability. Anyone who treats others as 'untouchables' can be punished by the court.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "OTHER",
+          "description": "Punishable in accordance with law as an offence."
+        }
+      ],
+      "keywords": [
+        "fundamental",
+        "untouchability",
+        "abolition",
+        "offence",
+        "equality"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Constitution of India",
+      "section": "Article 19",
+      "title": "Protection of certain rights regarding freedom of speech, etc.",
+      "description": "Guarantees all citizens the right to freedom of speech and expression, peaceful assembly, forming associations, free movement throughout India, and practicing any profession or trade.",
+      "simpleExplanation": "This provides citizens with their basic freedoms, like the right to speak their mind, meet peacefully, and work anywhere in India, though the government can set reasonable limits for the safety of the country.",
+      "punishments": [],
+      "keywords": [
+        "fundamental",
+        "freedom",
+        "speech",
+        "assembly",
+        "profession"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "The Constitution of India",
+      "section": "Article 21",
+      "title": "Protection of life and personal liberty",
+      "description": "States that no person shall be deprived of his life or personal liberty except according to the procedure established by law.",
+      "simpleExplanation": "The government cannot take away a person's life or freedom without following a clear and legal process.",
+      "punishments": [],
+      "keywords": [
+        "fundamental",
+        "life",
+        "liberty",
+        "protection",
+        "personal freedom"
+      ],
+      "relatedSections": []
+    }
+  ]
+}
