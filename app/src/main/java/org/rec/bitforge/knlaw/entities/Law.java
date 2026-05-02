@@ -1,12 +1,14 @@
 package org.rec.bitforge.knlaw.entities;
 
 import androidx.room.Entity;
-import androidx.room.Index;
 import androidx.room.PrimaryKey;
+import androidx.room.Insert;
+import androidx.room.Query;
+import androidx.room.Relation;
 
-@Entity(tableName = "laws", indices = {
-        @Index(value = { "actName", "section" }, unique = true)
-})
+import java.util.List;
+
+@Entity(tableName = "laws")
 public class Law {
 
     @PrimaryKey(autoGenerate = true)
@@ -16,5 +18,5 @@ public class Law {
     public String section; // e.g. 379
     public String title; // Short title
     public String description; // Detailed law
-    public String simpleExplanation; // Easy explanation
+    public String simpleExplanation;// Easy explanation
 }

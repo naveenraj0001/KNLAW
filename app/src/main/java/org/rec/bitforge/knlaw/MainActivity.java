@@ -198,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
                 DB.class,
                 "law-db").fallbackToDestructiveMigration(true).allowMainThreadQueries().build();
 
+        // FOR DEBUG ONLY
         db.clearAllTables();
 
         if (db.lawDao().getCount() == 0) {

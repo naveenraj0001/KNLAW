@@ -2,7 +2,6 @@ package org.rec.bitforge.knlaw.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
-import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Transaction;
 
@@ -13,7 +12,7 @@ import java.util.List;
 @Dao
 public interface LawDao {
 
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    @Insert
     long insert(Law law);
 
     @Query("SELECT * FROM laws WHERE section = :section LIMIT 1")

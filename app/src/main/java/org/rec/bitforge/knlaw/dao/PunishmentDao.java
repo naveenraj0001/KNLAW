@@ -2,7 +2,6 @@ package org.rec.bitforge.knlaw.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
-import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
 import org.rec.bitforge.knlaw.entities.Punishment;
@@ -11,7 +10,7 @@ import java.util.List;
 
 @Dao
 public interface PunishmentDao {
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    @Insert
     void insert(Punishment punishment);
 
     @Query("SELECT * FROM punishments WHERE lawId = :lawId LIMIT 1")
