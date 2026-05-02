@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <!-- Internet permission (for future AI/Web use) -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
+    <!-- 🌐 INTERNET -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 🎤 MIC -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -15,33 +17,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Knlaw">
+
         <activity
             android:name=".ui.SearchActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.FamilyActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.CriminalActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.RightsActivity"
             android:exported="false" />
+
+        <!-- 🤖 AI SCREEN -->
         <activity
             android:name=".ui.AIActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 🏠 MAIN -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- OTHER ACTIVITIES -->
-        <activity
-            android:name=".Main1Activity"
-            android:exported="false" />
+
+        </activity>
+
     </application>
 
 </manifest>

@@ -1,72 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#0F172A"
     android:padding="12dp"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:fitsSystemWindows="true">
 
-    <!-- 🔥 Title -->
+    <!-- 🤖 TITLE -->
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="🤖 AI Legal Assistant"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginBottom="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_marginBottom="10dp" />
 
-    <!-- 💬 Chat Output -->
+    <!-- 💬 CHAT OUTPUT -->
     <ScrollView
         android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="#1E293B"
         android:padding="12dp"
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="0dp">
+        android:fillViewport="true">
 
         <TextView
             android:id="@+id/txtAIResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Ask anything about law..."
             android:textColor="#E2E8F0"
-            android:textSize="16sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textSize="16sp" />
+
     </ScrollView>
 
-    <!-- ✍️ Input -->
+    <!-- ✍️ INPUT -->
     <EditText
         android:id="@+id/inputAI"
-        android:hint="Ask your legal question..."
-        android:textColor="#FFFFFF"
-        android:textColorHint="#94A3B8"
-        android:background="#1E293B"
-        android:padding="12dp"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <!-- 🚀 Button -->
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#1E293B"
+        android:hint="Ask your legal question..."
+        android:textColorHint="#94A3B8"
+        android:padding="12dp"
+        android:textColor="#FFFFFF" />
+    <!-- 🚀 ASK BUTTON -->
     <Button
         android:id="@+id/btnAskAI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Ask AI"
         android:textColor="#FFFFFF"
         android:backgroundTint="#22C55E"
-        android:elevation="6dp"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:elevation="6dp" />
+
+    <!-- 🎤 MIC BUTTON -->
     <Button
         android:id="@+id/btnMic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="🎤 Speak"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:text="🎤 Speak" />
+
+    <!-- 🌐 LANGUAGE BUTTON -->
     <Button
         android:id="@+id/btnLang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="🌐 Change Language"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:text="🌐 Change Language" />
 
 </LinearLayout>
