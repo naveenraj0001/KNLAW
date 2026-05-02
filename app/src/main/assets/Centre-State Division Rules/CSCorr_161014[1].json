@@ -1,0 +1,359 @@
+{
+  "corrigenda": [
+    {
+      "actName": "Andhra Pradesh Reorganisation Act, 2014",
+      "issueDetails": "Published in the Gazette of India, Extraordinary, Part II, Section 1, Issue No. 6, dated the 1st March, 2014",
+      "corrections": [
+        {
+          "pageNo": "2",
+          "column": null,
+          "lines": "28",
+          "for": "Rangareddi",
+          "read": "Ranga Reddy"
+        },
+        {
+          "pageNo": "5",
+          "column": null,
+          "lines": "10",
+          "for": "sub-section ( )",
+          "read": "sub-section (1) of section 17"
+        },
+        {
+          "pageNo": "21",
+          "column": null,
+          "lines": "41",
+          "for": "terms clause",
+          "read": "terms of clause"
+        },
+        {
+          "pageNo": "25",
+          "column": null,
+          "lines": "3",
+          "for": "oppointed",
+          "read": "appointed"
+        },
+        {
+          "pageNo": "26",
+          "column": null,
+          "lines": "19",
+          "for": "section 102",
+          "read": "section 101"
+        },
+        {
+          "pageNo": "28",
+          "column": null,
+          "lines": "25",
+          "for": "2014",
+          "read": "2013"
+        },
+        {
+          "pageNo": "36",
+          "column": "1",
+          "lines": "32",
+          "for": "129. Pulivendla",
+          "read": "129. Pulivendula,"
+        },
+        {
+          "pageNo": "36",
+          "column": "2",
+          "lines": "32",
+          "for": "Pulivendla,",
+          "read": "Pulivendula,"
+        },
+        {
+          "pageNo": "39",
+          "column": "2",
+          "lines": "21",
+          "for": "47-Mandapeta.",
+          "read": "48-Mandapeta"
+        },
+        {
+          "pageNo": "40",
+          "column": "2",
+          "lines": "5",
+          "for": "129-Pulivendia",
+          "read": "129-Pulivendula"
+        },
+        {
+          "pageNo": "42",
+          "column": null,
+          "lines": "11",
+          "for": "5-DISTRICT: RANGAREDDI",
+          "read": "5-DISTRICT: RANGA REDDY"
+        },
+        {
+          "pageNo": "46",
+          "column": "1 and 2",
+          "lines": "34, 35",
+          "for": "4. NIZAMABAD 1-Armur, 2-Bodhan 3-Nizamabad (Urban), 4-Nizamabad (Rural), 5-Balkonda, 6-Koratla and 7-Jagtial.",
+          "read": "4. NIZAMABAD 11-Armur, 12-Bodhan 17-Nizamabad (Urban), 18-Nizamabad (Rural), 19-Balkonda 20-Koratla and 21-Jagtial."
+        },
+        {
+          "pageNo": "46",
+          "column": "1 and 2",
+          "lines": "38 to 42",
+          "for": "6. MEDAK 8-Siddipet, 9-Medak 10-Narsapur, 11-Sangareddy, 12-Patancheru, 13-Dubbak and 14-Gajwel",
+          "read": "6. MEDAK 33-Siddipet, 34-Medak, 37-Narsapur, 39-Sangareddy, 40-Patancheru, 41-Dubbak and 42-Gajwel"
+        },
+        {
+          "pageNo": "46",
+          "column": "1 and 2",
+          "lines": "Omitted (below Medak in original text)",
+          "for": "7. MALKAJGIRI 15-Medchal, 16-Malkajgiri, 17-Qutbullapur, 18-Kukatpalle, 19-Uppal,",
+          "read": "7. MALKAJGIRI 43-Medchal, 44-Malkajgiri, 45-Qutbullapur, 46-Kukatpalle, 47-Uppal,"
+        },
+        {
+          "pageNo": "46",
+          "column": "1 and 2",
+          "lines": "Omitted (below Medak in original text)",
+          "for": "20-Lal Bahadur Nagar and 21-Secunderabad Cantt. (SC).",
+          "read": "49-Lal Bahadur Nagar and 71-Secunderabad Cantt. (SC)."
+        },
+        {
+          "pageNo": "46",
+          "column": "1 and 2",
+          "lines": "45 to 49",
+          "for": "9. HYDERABAD 22-Malakpet, 23-Karwan, 24-Goshamahal, 25-Charminar, 26-Chandrayangutta, 27-Yakutpura and 28-Bahadurpura. 10. CHEVELLA 29-Maheswaram, 30-Rajendranagar, 31-Serilingampally, 32-Chevella (SC), 33-Pargi, 34-Vicarabad(SC) and 35-Tandur.",
+          "read": "9. HYDERABAD 58-Malakpet, 64-Karwan, 65-Goshamahal, 66-Charminar, 67-Chandrayangutta, 68-Yakutpura and 69-Bahadurpura 10. CHEVELLA 50-Maheswaram, 51-Rajendranagar, 52-Serilingampally, 53-Chevella (SC), 54-Pargi, 55-Vicarabad(SC) and 56-Tandur"
+        },
+        {
+          "pageNo": "47",
+          "column": "1 and 2",
+          "lines": "2 to 4, 8 to 10",
+          "for": "11. MAHBUBNAGAR 36-Kodangal, 37-Narayanpet, 38-Mahbubnagar, 39-Jadcherla, 40-Devarkadra, 41-Makthal and 42-Shadnagar. 13. NALGONDA 43-Devarakonda (ST), 44-Nagarjuna Sagar, 45-Miryalaguda, 46-Huzurnagar, 47-Kodad, 48-Suryapet and 49-Nalgonda",
+          "read": "11. MAHBUBNAGAR 72-Kodangal, 73-Narayanpet, 74-Mahbubnagar, 75-Jadcherla, 76-Devarkadra, 77-Makthal and 84-Shadnagar. 13. NALGONDA 86-Devarakonda (ST), 87-Nagarjuna Sagar, 88-Miryalaguda, 89-Huzurnagar, 90-Kodad, 91-Suryapet and 92-Nalgonda"
+        },
+        {
+          "pageNo": "47",
+          "column": "1 and 2",
+          "lines": "14 to 16",
+          "for": "15. WARANGAL (SC) 50-Ghanpur (Station) (SC), 51-Palakurthi, 52-Parkal,",
+          "read": "15. WARANGAL (SC) 99-Ghanpur (Station) (SC), 100-Palakurthi, 104-Parkal,"
+        },
+        {
+          "pageNo": "47",
+          "column": "1 and 2",
+          "lines": "14 to 16",
+          "for": "53-Warangal West,",
+          "read": "105-Warangal West,"
+        },
+        {
+          "pageNo": "47",
+          "column": "1 and 2",
+          "lines": "14 to 16",
+          "for": "54-Warangal East,",
+          "read": "106-Warangal East,"
+        },
+        {
+          "pageNo": "47",
+          "column": "1 and 2",
+          "lines": "14 to 16",
+          "for": "55-Wardhannapet (SC) and 56-Bhupalpalle",
+          "read": "107-Wardhannapet (SC) and 108-Bhupalpalle."
+        },
+        {
+          "pageNo": "47",
+          "column": "1 and 2",
+          "lines": "20 to 22",
+          "for": "17. Khammam 57-Khammam, 58-Palair, 59-Madhira (SC), 60-Wyra (ST), 61-Sathupalle (SC), 62-Kothagudem and 63-Aswaraopeta (ST)",
+          "read": "17. Khammam 112-Khammam, 113-Palair, 114-Madhira (SC), 115-Wyra (ST), 116-Sathupalle (SC), 117-Kothagudem and 118-Aswaraopeta (ST)."
+        },
+        {
+          "pageNo": "48",
+          "column": "2",
+          "lines": "30",
+          "for": "Prakasam-Nellore-Chittor",
+          "read": "Prakasam-Nellore-Chittoor"
+        },
+        {
+          "pageNo": "53",
+          "column": null,
+          "lines": "15",
+          "for": "Holya",
+          "read": "Holva"
+        },
+        {
+          "pageNo": "59",
+          "column": "3",
+          "lines": "17",
+          "for": "Prishrama",
+          "read": "Parishrama"
+        },
+        {
+          "pageNo": "59",
+          "column": "3",
+          "lines": "21",
+          "for": "Prishrama",
+          "read": "Parishrama"
+        },
+        {
+          "pageNo": "60",
+          "column": "3",
+          "lines": "26",
+          "for": "Chaitniyapuri",
+          "read": "Chaitanyapuri"
+        },
+        {
+          "pageNo": "61",
+          "column": "3",
+          "lines": "13",
+          "for": "Sankeshamma",
+          "read": "Samkshema"
+        },
+        {
+          "pageNo": "61",
+          "column": "3",
+          "lines": "18",
+          "for": "Sankeshamma",
+          "read": "Samkshema"
+        },
+        {
+          "pageNo": "61",
+          "column": "3",
+          "lines": "45",
+          "for": "Mehadipatnam",
+          "read": "Mehdipatnam"
+        },
+        {
+          "pageNo": "62",
+          "column": "2",
+          "lines": "38",
+          "for": "Paarisharamika",
+          "read": "Paarishramika"
+        },
+        {
+          "pageNo": "63",
+          "column": "2",
+          "lines": "3 and 4",
+          "for": "Omit \"to be added\"",
+          "read": "Omit \"to be added\""
+        },
+        {
+          "pageNo": "63",
+          "column": "3",
+          "lines": "26",
+          "for": "lance",
+          "read": "Lane"
+        },
+        {
+          "pageNo": "63",
+          "column": "3",
+          "lines": "33",
+          "for": "50028",
+          "read": "500028"
+        },
+        {
+          "pageNo": "63",
+          "column": "3",
+          "lines": "34",
+          "for": "Sakshema",
+          "read": "Samkshema"
+        },
+        {
+          "pageNo": "64",
+          "column": "3",
+          "lines": "2",
+          "for": "Sakshema",
+          "read": "Samkshema"
+        },
+        {
+          "pageNo": "64",
+          "column": "2",
+          "lines": "11",
+          "for": "Andhra Pradesh Sagar",
+          "read": "Andhra Pradesh Sagara (Uppara)"
+        },
+        {
+          "pageNo": "64",
+          "column": "2",
+          "lines": "14",
+          "for": "Andhra Pradesh Valmiki",
+          "read": "Andhra Pradesh Valmiki/ Boya"
+        },
+        {
+          "pageNo": "64",
+          "column": "2",
+          "lines": "17",
+          "for": "Andhra Pradesh Balija",
+          "read": "Andhra Pradesh Krishna Balija, Poosala"
+        },
+        {
+          "pageNo": "64",
+          "column": "2",
+          "lines": "20",
+          "for": "Andhra Pradesh Batraja",
+          "read": "Andhra Pradesh Bhattraja"
+        },
+        {
+          "pageNo": "64",
+          "column": "2",
+          "lines": "24",
+          "for": "Co-operative Societies Federation Ltd.",
+          "read": "Finance Corporation"
+        },
+        {
+          "pageNo": "64",
+          "column": "2",
+          "lines": "26",
+          "for": "Andhra Pradesh Kummari",
+          "read": "Andhra Pradesh Kummari Salivahana"
+        },
+        {
+          "pageNo": "64",
+          "column": "2 and 3",
+          "lines": "29, 30",
+          "for": "Andhra Pradesh Vishwabrahmana Co-operative Societies Federation Lid",
+          "read": "Andhra Pradesh State Vishwabrahmana Co-operative Corporation Ltd."
+        },
+        {
+          "pageNo": "65",
+          "column": null,
+          "lines": "2",
+          "for": "Rangareddy",
+          "read": "Ranga Reddy"
+        },
+        {
+          "pageNo": "65",
+          "column": null,
+          "lines": "22",
+          "for": "Rangareddi",
+          "read": "Ranga Reddy"
+        },
+        {
+          "pageNo": "66",
+          "column": null,
+          "lines": "32",
+          "for": "Secundrabad",
+          "read": "Secunderabad"
+        },
+        {
+          "pageNo": "67",
+          "column": null,
+          "lines": "13",
+          "for": "Hyderbad",
+          "read": "Hyderabad"
+        },
+        {
+          "pageNo": "71",
+          "column": null,
+          "lines": "6",
+          "for": "within period",
+          "read": "within a period"
+        }
+      ]
+    },
+    {
+      "actName": "Finance (No. 2) Act, 2014",
+      "issueDetails": "Published in the Gazette of India, Extraordinary, Part II, Section 1, Issue No. 29, dated the 6th August, 2014",
+      "corrections": [
+        {
+          "pageNo": "1",
+          "column": null,
+          "lines": "title",
+          "for": "THE FINANCE (No. 2) BILL, 2014",
+          "read": "THE FINANCE (No. 2) ACT, 2014"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "laws": [
+    {
+      "actName": "Central Industrial Security Force Rules, 2001",
+      "section": "Rule 34",
+      "title": "Nature of Penalties",
+      "description": "The rule specifies the major and minor penalties that may be imposed on an enrolled member of the Force for good and sufficient reasons. Major penalties include dismissal, removal, compulsory retirement, and reduction in rank or pay. Minor penalties include censure, withholding of promotion or increment, reduction in pay for a limited period, and fine up to seven days' pay.",
+      "simpleExplanation": "This rule explains the types of punishments that can be given to CISF members, including serious ones like dismissal and minor ones like fines or warnings.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Dismissal from service"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Removal from service"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Compulsory retirement"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Reduction to a lower rank, grade, post or service"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Reduction to a lower stage in time scale of pay"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Censure"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Withholding of promotion"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 1095,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Reduction to a lower stage in time scale of pay for a period not exceeding three years"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Withholding of increment of pay"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Fine up to seven days pay"
+        }
+      ],
+      "keywords": [
+        "penalties",
+        "discipline",
+        "dismissal",
+        "removal",
+        "compulsory retirement",
+        "reduction in rank",
+        "fine",
+        "censure"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Central Industrial Security Force Rules, 2001",
+      "section": "Rule 35",
+      "title": "Petty punishments",
+      "description": "This rule provides that Head Constables, Constables, and Followers may be awarded petty punishments such as extra drill, guard, fatigue, or other duty for a term not exceeding fourteen days.",
+      "simpleExplanation": "Lower-rank CISF members can be given small punishments like extra duty for up to 14 days.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 14,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Extra drill, guard, fatigue or other duty for a term not exceeding fourteen days"
+        }
+      ],
+      "keywords": [
+        "petty punishment",
+        "extra duty",
+        "discipline",
+        "constable",
+        "head constable"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

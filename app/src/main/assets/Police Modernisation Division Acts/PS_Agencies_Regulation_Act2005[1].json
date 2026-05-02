@@ -1,0 +1,143 @@
+{
+  "laws": [
+    {
+      "actName": "Private Security Agencies (Regulation) Act, 2005",
+      "section": "4",
+      "title": "Persons or Private Security Agency not to engage or provide private security guard without licence",
+      "description": "No person shall carry on or commence the business of private security agency, unless he holds a licence issued under this Act.",
+      "simpleExplanation": "Engaging in or starting a private security agency business requires a valid licence issued under this Act.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 365,
+          "minimumFine": null,
+          "maximumFine": 25000,
+          "punishmentType": "BOTH",
+          "description": "Punishable with imprisonment for a term which may extend to one year, or with fine which may extend to twenty-five thousand rupees, or with both."
+        }
+      ],
+      "keywords": [
+        "licence",
+        "agency",
+        "penalty"
+      ],
+      "relatedSections": [
+        {
+          "section": "20",
+          "relationType": "REFERENCE",
+          "description": "Defines punishment for contravention of this section"
+        }
+      ]
+    },
+    {
+      "actName": "Private Security Agencies (Regulation) Act, 2005",
+      "section": "9",
+      "title": "Conditions for commencement of operation and engagement of supervisors",
+      "description": "Every private security agency shall commence activities within six months of obtaining the licence, impart prescribed training, and employ supervisors.",
+      "simpleExplanation": "Agencies must commence business within six months of getting a licence and ensure adequate training and supervisors.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": 25000,
+          "punishmentType": "FINE",
+          "description": "Punishable with a fine which may extend to twenty-five thousand rupees, in addition to suspension or cancellation of the licence."
+        }
+      ],
+      "keywords": [
+        "training",
+        "supervisor",
+        "penalty"
+      ],
+      "relatedSections": [
+        {
+          "section": "20",
+          "relationType": "REFERENCE",
+          "description": "Defines punishment for contravention of this section"
+        }
+      ]
+    },
+    {
+      "actName": "Private Security Agencies (Regulation) Act, 2005",
+      "section": "10",
+      "title": "Eligibility to be a private security guard",
+      "description": "Specifies eligibility conditions for employing a person as a private security guard, including citizenship, age, character, and training.",
+      "simpleExplanation": "Guards must meet certain citizenship, age, and training requirements to be employed.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": 25000,
+          "punishmentType": "FINE",
+          "description": "Punishable with a fine which may extend to twenty-five thousand rupees, in addition to suspension or cancellation of the licence."
+        }
+      ],
+      "keywords": [
+        "guard",
+        "eligibility",
+        "penalty"
+      ],
+      "relatedSections": [
+        {
+          "section": "20",
+          "relationType": "REFERENCE",
+          "description": "Defines punishment for contravention of this section"
+        }
+      ]
+    },
+    {
+      "actName": "Private Security Agencies (Regulation) Act, 2005",
+      "section": "12",
+      "title": "Licence to be exhibited",
+      "description": "Every private security agency shall exhibit its licence or copy thereof in a conspicuous place of its business.",
+      "simpleExplanation": "Agencies must display their licence or a copy in a prominent place at their business location.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": 25000,
+          "punishmentType": "FINE",
+          "description": "Punishable with a fine which may extend to twenty-five thousand rupees, in addition to suspension or cancellation of the licence."
+        }
+      ],
+      "keywords": [
+        "licence",
+        "exhibition",
+        "penalty"
+      ],
+      "relatedSections": [
+        {
+          "section": "20",
+          "relationType": "REFERENCE",
+          "description": "Defines punishment for contravention of this section"
+        }
+      ]
+    },
+    {
+      "actName": "Private Security Agencies (Regulation) Act, 2005",
+      "section": "21",
+      "title": "Penalty for unauthorized use of certain uniforms",
+      "description": "If any private security guard or supervisor wears the uniform of the Armed Forces or Police or similar dress, they are punishable.",
+      "simpleExplanation": "Guards and supervisors are not allowed to wear military or police uniforms or similar clothing.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": 365,
+          "minimumFine": null,
+          "maximumFine": 5000,
+          "punishmentType": "BOTH",
+          "description": "Punishable with imprisonment for a term which may extend to one year or with fine which may extend to five thousand rupees, or with both."
+        }
+      ],
+      "keywords": [
+        "uniform",
+        "penalty",
+        "unauthorized"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

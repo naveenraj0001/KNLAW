@@ -1,0 +1,45 @@
+{
+  "laws": [
+    {
+      "actName": "National Capital Territory of Delhi, Andaman and Nicobar Islands, Lakshadweep, Daman and Diu and Dadra and Nagar Haveli (Civil Service) Rules, 2003",
+      "section": "3",
+      "title": "Composition of the Service and its classification",
+      "description": "Constitutes the National Capital Territory of Delhi, Andaman and Nicobar Islands, Lakshadweep, Daman and Diu and Dadra and Nagar Haveli Civil Service consisting of persons appointed under rules 6 and 7, with four grades as specified in Schedule I.",
+      "simpleExplanation": "Creates the Civil Service for the specified territories consisting of four grades.",
+      "punishments": [],
+      "keywords": [
+        "Composition",
+        "Service",
+        "Classification"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "National Capital Territory of Delhi, Andaman and Nicobar Islands, Lakshadweep, Daman and Diu and Dadra and Nagar Haveli (Civil Service) Rules, 2003",
+      "section": "10",
+      "title": "Probation",
+      "description": "Every officer on appointment to the Entry Grade of the Service either by direct recruitment or by promotion shall be on probation for a period of two years, with provision for extension.",
+      "simpleExplanation": "Sets a two-year probation period for new appointments, which may be extended.",
+      "punishments": [],
+      "keywords": [
+        "Probation",
+        "Entry Grade"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "National Capital Territory of Delhi, Andaman and Nicobar Islands, Lakshadweep, Daman and Diu and Dadra and Nagar Haveli (Civil Service) Rules, 2003",
+      "section": "14",
+      "title": "Disqualification",
+      "description": "Disqualifies any person who has a living spouse and contracts another marriage, or contracts a marriage with a person having a spouse living from appointment, unless exempted by the Central Government.",
+      "simpleExplanation": "Prohibits bigamy for appointment to the service unless exempted.",
+      "punishments": [],
+      "keywords": [
+        "disqualification",
+        "marriage",
+        "appointment"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

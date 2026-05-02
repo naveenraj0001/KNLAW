@@ -1,0 +1,46 @@
+{
+  "laws": [
+    {
+      "actName": "Bihar Reorganisation Act, 2000",
+      "section": "3",
+      "title": "Formation of the State of Jharkhand",
+      "description": "Provides for the formation of the new State of Jharkhand comprising 18 districts (Bokaro, Chatra, Deogarh, Dhanbad, Dumka, Garhwa, Giridih, Godda, Gumla, Hazaribagh, Kodarma, Lohardaga, Pakur, Palamau, Ranchi, Sahebganj, Singhbhum (East), and Singhbhum (West)) from the existing State of Bihar.",
+      "simpleExplanation": "Creates the new State of Jharkhand from 18 districts of Bihar.",
+      "punishments": [],
+      "keywords": [
+        "Jharkhand",
+        "Bihar",
+        "Districts"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Bihar Reorganisation Act, 2000",
+      "section": "10-20",
+      "title": "Representation in Legislatures",
+      "description": "Allocates legislative seats: 16 Council of States and 40 House of the People seats for Bihar, and 6 Council of States and 14 House of the People seats for Jharkhand. Fixes the Legislative Assembly seats at 243 for Bihar and 81 for Jharkhand.",
+      "simpleExplanation": "Sets the number of parliamentary and assembly seats for the two states.",
+      "punishments": [],
+      "keywords": [
+        "Legislative Assembly",
+        "Council of States",
+        "House of the People"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Bihar Reorganisation Act, 2000",
+      "section": "30",
+      "title": "High Court",
+      "description": "Establishes a separate High Court for the State of Jharkhand, while the High Court at Patna continues as the High Court for the State of Bihar.",
+      "simpleExplanation": "Separates the High Courts for Bihar and Jharkhand.",
+      "punishments": [],
+      "keywords": [
+        "High Court",
+        "Jharkhand",
+        "Patna"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

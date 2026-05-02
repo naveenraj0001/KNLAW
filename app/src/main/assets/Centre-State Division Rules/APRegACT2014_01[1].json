@@ -1,0 +1,32 @@
+{
+  "laws": [
+    {
+      "actName": "Andhra Pradesh Reorganisation (Amendment) Act, 2014",
+      "section": "2",
+      "title": "Amendment of section 3",
+      "description": "Substitutes the words and brackets detailing the territories of Khammam district in the Andhra Pradesh Reorganisation Act, 2014, specifically excluding the Mandals of Kukunoor, Velairpadu and Bhurgampadu (with specified revenue village exceptions) and Mandals of Chintoor, Kunavaram, Vararamachandrapuram and Bhadrachalam (with specified revenue village exceptions).",
+      "simpleExplanation": "Amends the territorial boundaries of Khammam district by excluding certain mandals and revenue divisions.",
+      "punishments": [],
+      "keywords": [
+        "Khammam",
+        "Mandals",
+        "Amendment"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Andhra Pradesh Reorganisation (Amendment) Act, 2014",
+      "section": "3",
+      "title": "Repeal and saving",
+      "description": "Repeals the Andhra Pradesh Reorganisation (Amendment) Ordinance, 2014. It also provides that any action taken under the Act as amended by the repealed ordinance shall be deemed to be done under the provisions of the Act as amended by this Act.",
+      "simpleExplanation": "Repeals the 2014 ordinance and validates previous actions under the new Act.",
+      "punishments": [],
+      "keywords": [
+        "Repeal",
+        "Saving",
+        "Ordinance"
+      ],
+      "relatedSections": []
+    }
+  ]
+}

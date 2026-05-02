@@ -1,0 +1,58 @@
+{
+  "laws": [
+    {
+      "actName": "Government of Union Territories Act, 1963",
+      "section": "4",
+      "title": "Qualification for membership of Legislative Assembly",
+      "description": "A person shall not be qualified to be chosen to fill a seat in the Legislative Assembly of the Union territory unless he is a citizen of India and makes and subscribes before some person authorised in that behalf by the Election Commission an oath or affirmation according to the form set out for the purpose in the First Schedule, is not less than twenty-five years of age, and possesses such other qualifications as may be prescribed in that behalf by or under any law.",
+      "simpleExplanation": "Candidates must be at least twenty-five years of age, an Indian citizen, take an oath or affirmation, and meet other prescribed qualifications.",
+      "punishments": [],
+      "keywords": [
+        "Qualifications",
+        "Membership",
+        "Citizen"
+      ],
+      "relatedSections": []
+    },
+    {
+      "actName": "Government of Union Territories Act, 1963",
+      "section": "14",
+      "title": "Disqualifications for membership",
+      "description": "A person shall be disqualified for being chosen as, and for being, a member of the Legislative Assembly of the Union territory if he holds any office of profit under the Government of India or the Government of any State or the Government of the Union territory other than an office declared by law not to disqualify its holder, or if disqualified under Article 102 of the Constitution.",
+      "simpleExplanation": "A person cannot be a member if they hold an office of profit or are disqualified under the Indian Constitution.",
+      "punishments": [],
+      "keywords": [
+        "disqualification",
+        "office of profit",
+        "membership"
+      ],
+      "relatedSections": [
+        {
+          "section": "14A",
+          "relationType": "REFERENCE",
+          "description": "Disqualification on ground of defection for being a member"
+        }
+      ]
+    },
+    {
+      "actName": "Government of Union Territories Act, 1963",
+      "section": "15",
+      "title": "Penalty for sitting and voting before making oath or affirmation or when not qualified or when disqualified",
+      "description": "If a person sits or votes as a member of the Legislative Assembly before he has complied with the requirements of section 11 or when he knows that he is not qualified or that he is disqualified for membership.",
+      "simpleExplanation": "A penalty is charged for sitting or voting in the Assembly without taking the oath, or when unqualified or disqualified.",
+      "punishments": [],
+      "keywords": [
+        "penalty",
+        "sitting and voting",
+        "oath"
+      ],
+      "relatedSections": [
+        {
+          "section": "11",
+          "relationType": "REFERENCE",
+          "description": "Requires oath or affirmation before taking seat"
+        }
+      ]
+    }
+  ]
+}

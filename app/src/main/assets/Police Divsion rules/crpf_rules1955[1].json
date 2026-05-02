@@ -1,0 +1,114 @@
+{
+  "laws": [
+    {
+      "actName": "Central Reserve Police Force Rules, 1955",
+      "section": "Rule 27",
+      "title": "Procedure for the Award of Punishments",
+      "description": "This rule specifies the punishments that may be awarded to non-gazetted officers and members of the force and the authorities competent to impose such punishments. It includes dismissal, removal, reduction in rank or pay, compulsory retirement, fines, confinement, stoppage of increment, removal from office, and censure, along with conditions and procedures for departmental enquiry.",
+      "simpleExplanation": "This rule explains what punishments CRPF members can get and who can give those punishments, along with the process to follow.",
+      "punishments": [
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Dismissal or removal from the force"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Reduction to a lower time-scale of pay, grade, post or service"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Reduction to a lower stage in the time scale of pay for a specified period"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Compulsory retirement"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Fine not exceeding one month's pay and allowance"
+        },
+        {
+          "minimumDuration": 7,
+          "maximumDuration": 20,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Confinement in quarter guard exceeding seven days but not more than twenty days with or without punishment drill or extra duty"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Stoppage of increment"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Removal from any office of distinction or special emoluments"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": null,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "FINE",
+          "description": "Censure"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 7,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Confinement to quarter guard for not more than seven days with or without extra duty"
+        },
+        {
+          "minimumDuration": null,
+          "maximumDuration": 30,
+          "minimumFine": null,
+          "maximumFine": null,
+          "punishmentType": "IMPRISONMENT",
+          "description": "Confinement to quarter lines, camp, punishment drill or fatigue duties for a term not exceeding one month"
+        }
+      ],
+      "keywords": [
+        "punishment",
+        "discipline",
+        "crpf",
+        "dismissal",
+        "removal",
+        "fine",
+        "confinement",
+        "censure",
+        "reduction",
+        "increment"
+      ],
+      "relatedSections": []
+    }
+  ]
+}
